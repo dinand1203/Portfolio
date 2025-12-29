@@ -1,0 +1,560 @@
+{
+    "en": {
+        "nav": {
+            "about": "About",
+            "skills": "Skills",
+            "projects": "Projects",
+            "contact": "Contact"
+        },
+        "hero": {
+            "greeting": "Developer & Designer",
+            "subtitle": "Building Digital Products with Code and Creative Thinking",
+            "description": "Creating functional web applications with Next.js, Python, and TypeScript—backed by a strong foundation in design and user experience",
+            "cta": "View My Work"
+        },
+        "about": {
+            "title": "About Me",
+            "profession": "Communication & Multimedia Designer",
+            "paragraph1": "I’m a multimedia designer and developer, and I recently graduated from Avans University of Applied Sciences in Breda. I love combining creative thinking with technology, so an idea doesn’t just look good — it actually works well too. For me, the challenge is creating digital products that feel intuitive, are enjoyable to use, and look strong at the same time.",
+            "paragraph2": "In my work, I focus on the full picture: from concept and visual design to interaction and implementation. I enjoy refining details like animations, micro-interactions, and user flow, because those small touches often make an experience feel complete. I always try to make choices that fit the goal of the project and the people who will use it.",
+            "paragraph3": "Alongside design, I’m actively growing my development skills. I’m constantly learning more about web development and building interactive digital experiences. In this portfolio, I share projects where I explore how design and code can work together. Each project is a chance for me to try something new, improve my skills, and create digital experiences that are not only functional, but also memorable."
+        },
+        "skills": {
+            "title": "Skills",
+            "design": {
+                "title": "Design"
+            },
+            "development": {
+                "title": "Development"
+            },
+            "multimedia": {
+                "title": "Multimedia",
+                "videoEditing": "Video Editing",
+                "motionGraphics": "Motion Graphics",
+                "photography": "Photography",
+                "modeling": "3D Modeling"
+            }
+        },
+        "projects": {
+            "title": "My Work",
+            "filter": {
+                "all": "All",
+                "completed": "Completed",
+                "inProgress": "In Progress"
+            },
+            "sort": {
+                "label": "Sort by:",
+                "newest": "Newest First",
+                "oldest": "Oldest First"
+            },
+            "statusCompleted": "Completed",
+            "statusInProgress": "In Progress",
+            "viewProject": "View Project"
+        },
+        "contact": {
+            "title": "Get In Touch",
+            "description": "I'm currently open to new opportunities and collaborations."
+        },
+        "footer": {
+            "copyright": "© 2025 Dinand Dap. All rights reserved."
+        },
+        "project": {
+            "backLink": "← Back to Portfolio",
+            "backToProjects": "← Back to All Projects",
+            "meta": {
+                "role": "Role:",
+                "tools": "Tools:",
+                "year": "Year:",
+                "period": "Period:"
+            },
+            "beverage": {
+                "title": "Beverage Campaign",
+                "subtitle": "3D Product Visualization & Campaign Design",
+                "role": "3D Artist & Designer",
+                "overview": {
+                    "title": "Project Overview",
+                    "text": "This project involved creating a photorealistic 3D product visualization for a beverage marketing campaign. The goal was to produce eye-catching promotional materials that could be used across digital and print media. The main focus of this assignment was to dive deep into 3D software, experimenting with lighting, materials, and composition to achieve a level of realism that could rival — or even surpass — traditional product photography."
+                },
+                "challenge": {
+                    "title": "The Challenge",
+                    "text": "The intention of this assignment was to explore different visual options for marketing goals while keeping the outcome professional and clean. To achieve this, I chose to teach myself 3D software using Blender, so I could create high-quality product visuals independently, without having to rely on production teams for photography or other traditional marketing assets."
+                },
+                "approach": {
+                    "title": "My Approach",
+                    "text": "Before I even opened any 3D software, I first had to design the beverage itself. Once the label design was finished, I created a precise UV map so Blender could correctly wrap the label around the 3D model of the can. This step took the most time, because every small tweak could shift the label and it had to sit perfectly on the surface.",
+                    "text2": "After that, I used Blender to model and render the beverage bottle, with a strong focus on realism and presentation. I created a realistic glass shader with proper refraction and transparency, designed a three-point lighting setup to highlight the product, and carefully composed the scene to guide the viewer's eye. Finally, I enhanced the colors and contrast in Photoshop to prepare the visual for use in professional marketing campaign materials.",
+                    "uvCaption": "UV label design and mapping for the beverage can"
+                },
+                "results": {
+                    "title": "Results",
+                    "text": "The final render successfully captured the product's premium quality and refreshing appeal. The visual was used across multiple marketing channels and helped establish a cohesive brand identity for the campaign."
+                },
+                "skills": {
+                    "title": "Skills & Tools",
+                    "tag1": "3D Modeling",
+                    "tag2": "Product Visualization",
+                    "tag3": "Lighting Design",
+                    "tag4": "Material Creation"
+                },
+                "moreVisuals": {
+                    "title": "More Visuals"
+                }
+            },
+            "marketing": {
+                "title": "Marketing Content Package",
+                "subtitle": "Social Media Content for Football Club",
+                "role": "Designer & Developer",
+                "overview": {
+                    "title": "Project Overview",
+                    "text": "This marketing content package was created for the social media channels of my football club. I've been playing football my whole life since I was six years old, and in 2020 I made my debut for the first team. As the club and the squad became more interested in increasing the club's online reach, a content package based on the players' shirts to present line-ups and man of the match announcements seemed like a fantastic idea. In this way, the club and the team are clearly visible on social media, and we hope this will help attract new members."
+                },
+                "challenge": {
+                    "title": "The Challenge",
+                    "text": "The challenge was to increase visibility on social media platforms with the aim of attracting new members and keeping existing members up to date with the weekly line-ups and man of the match announcements. This way, we also maintain interaction with the supporters."
+                },
+                "approach": {
+                    "title": "My Approach",
+                    "text": "First, I had to create the 3D model of the football shirt. Once that was done, I used UV maps to apply the corresponding designs to the shirts. I then created the right composition and lighting and rendered a 10-second animation. After that, I imported these clips into After Effects to add the final touches, and then they were ready to be shared on Instagram."
+                },
+                "results": {
+                    "title": "Results",
+                    "text": "The results turned out very well, and the visuals are still being used today. Below you can see examples of the final content created for the club's social media channels."
+                },
+                "skills": {
+                    "title": "Skills & Tools",
+                    "tag1": "3D Modeling",
+                    "tag2": "UV Mapping",
+                    "tag3": "Animation",
+                    "tag4": "Social Media Content"
+                }
+            },
+            "vunzige": {
+                "title": "Internship Vunzige Deuntjes",
+                "subtitle": "Videographer & Editor for Urban Music Festival Brand",
+                "role": "Videographer & Editor",
+                "period": "September 2023 - January 2024",
+                "overview": {
+                    "title": "Project Overview",
+                    "text": "Vunzige Deuntjes is an urban music and festival brand known for its hiphop, R&B and dancehall events in the Netherlands and Belgium. They organize over 100 events a year and host the Vunzige Deuntjes Festival in the Amsterdamse Bos, attracting tens of thousands of visitors.",
+                    "text2": "During my internship at Vunzige Deuntjes, I worked as a videographer and video editor, creating content for social media and event promotion. I helped capture the atmosphere of club nights and festivals and turned this footage into short-form videos such as aftermovies, teasers and highlight clips for platforms like Instagram and TikTok."
+                },
+                "challenge": {
+                    "title": "The Challenge",
+                    "text": "The main goal of my internship was to strengthen the online visibility of Vunzige Deuntjes through consistent, high-quality video content. The challenge was to translate the energy of the events into short, engaging videos that work well on social media, fit the brand identity and help attract both new visitors and returning fans."
+                },
+                "approach": {
+                    "title": "My Approach",
+                    "text": "I started by getting to know the brand identity and existing content style: the type of shots, pacing, colors and typography they use. During events, I focused on capturing crowd moments, artists, stage visuals and small details that tell the story of the night.",
+                    "text2": "After each event, I selected the strongest footage, created an edit in Premiere Pro and added titles, overlays and subtle motion graphics in After Effects. I experimented with different formats (reels, stories, horizontal edits) so the content could be used across multiple platforms. Throughout the process I worked closely with the in-house team, incorporating feedback to make sure the videos aligned with the Vunzige Deuntjes tone of voice and campaign goals."
+                },
+                "results": {
+                    "title": "Results",
+                    "text": "The internship resulted in a series of finished video assets that were used on the Vunzige Deuntjes social media channels to promote events and build community engagement. The content helped give followers a clear impression of the festival and club experience and provided the team with a reusable visual style for future video content.",
+                    "text2": "Several of the videos continued to be used after my internship as part of ongoing promotion, which shows that the material fit both the brand and long-term communication needs."
+                },
+                "report": {
+                    "title": "Internship Exploration",
+                    "text": "As part of my academic requirements, I documented my internship experience in a detailed exploration. This document reflects on the challenges, learning moments, and professional growth during my time at Vunzige Deuntjes.",
+                    "viewBtn": "👁️ View Full Screen (PDF)",
+                    "downloadBtn": "📄 Download Internship Exploration (PDF)"
+                },
+                "skills": {
+                    "title": "Skills & Tools",
+                    "tag1": "Video Editing",
+                    "tag2": "Motion Graphics",
+                    "tag3": "Videography",
+                    "tag4": "Social Media Content",
+                    "tag5": "Event Coverage"
+                }
+            },
+            "thermal": {
+                "title": "Thermal AI",
+                "subtitle": "Graduation Project: Making AI's Environmental Impact Tangible",
+                "role": "Designer, Developer & Researcher",
+                "period": "January 2025 - September 2025",
+                "research": {
+                    "title": "Research Question",
+                    "text": "How can an embodied experience be designed to raise awareness among users of AI applications (aged 20–30) about the negative environmental impact, with the aim of encouraging meaningful reflection on their own AI usage?"
+                },
+                "overview": {
+                    "title": "Project Overview",
+                    "text": "Artificial Intelligence often feels like magic: effortless and invisible. But behind every prompt and every generated image lies a growing ecological cost in energy and water. This project, Thermal AI, dives beneath the surface of our digital tools. It explores how we can translate the abstract environmental impact of AI into a direct, physical experience in order to stimulate deeper awareness and reflection."
+                },
+                "problem": {
+                    "title": "The Problem",
+                    "text": "Artificial Intelligence (AI) has become an indispensable part of our lives. Yet behind the interfaces of tools like ChatGPT and Midjourney lies an invisible world of immense energy consumption. These ecological costs remain abstract and unknown for most users. For instance, a single question to ChatGPT can consume up to 100 times more energy than a normal Google search.",
+                    "text2": "The project focuses on young adults (20–30 years old), a target group that uses AI on a daily basis but often doesn't know the concrete environmental consequences of their digital behaviour. The core problem is that the ecological footprint of AI – from training models to executing a simple prompt – is completely invisible, which stands in the way of awareness."
+                },
+                "solution": {
+                    "title": "Design Solution",
+                    "text": "The design solution is Thermal AI: a prototype that translates the abstract environmental impact of AI into a direct, physical experience (embodied experience). The system consists of a thermal mouse pad that increases in temperature as AI use intensifies, supported by an interface that visualizes this process.",
+                    "text2": "When a user performs a task, they literally feel the energy impact of their digital action as warmth on their forearm. A complex task, such as generating an image, results in a fast and intense rise in temperature, while a simple question causes a more subtle warmth.",
+                    "text3": "Through this direct connection, the user becomes intuitively – and confrontationally – aware of the energy their digital actions consume. Thermal AI is not just a technological tool, but also an instrument for reflection. The design invites users to think about their own AI behaviour and encourages a more sustainable way of engaging with the technology that is increasingly shaping our daily lives."
+                },
+                "results": {
+                    "title": "Project Results",
+                    "text": "Below you can see the final prototype and demonstrations of the Thermal AI system in action."
+                },
+                "thesis": {
+                    "title": "Graduation Thesis",
+                    "text": "As part of my graduation project, I documented the complete research, design process, and findings in a detailed thesis. This document explores the theoretical framework, methodology, prototype development, and evaluation results.",
+                    "viewBtn": "👁️ View Full Screen (PDF)",
+                    "downloadBtn": "📄 Download Graduation Thesis (PDF)"
+                },
+                "skills": {
+                    "title": "Skills & Tools",
+                    "tag1": "Hardware Prototyping",
+                    "tag2": "User Research",
+                    "tag3": "Interaction Design",
+                    "tag4": "Embodied Experience"
+                }
+            },
+            "passwordGenerator": {
+                "title": "Password Generator",
+                "subtitle": "Modern, Secure Password Generator Built with Next.js & TypeScript",
+                "role": "Full-Stack Developer",
+                "liveApp": {
+                    "title": "Try It Live",
+                    "text": "Below is the fully functional password generator running in real-time. You can generate secure passwords with customizable options directly in your browser.",
+                    "openBtn": "Open Full App in New Tab →",
+                    "githubBtn": "View on GitHub →"
+                },
+                "overview": {
+                    "title": "Project Overview",
+                    "text": "For this project, I built a modern password generator using Next.js and TypeScript. This web app lets users quickly generate strong passwords and easily customize them — for example by changing the length or choosing which character types to include. I focused on creating an interface that looks clean and feels good to use, so generating a secure password is simple and hassle-free."
+                },
+                "challenge": {
+                    "title": "The Challenge",
+                    "text": "Strong passwords are essential today, but a lot of password generators feel outdated or offer limited options. My goal was to build a tool that does two things well: generate technically strong (secure) passwords, and provide a modern, smooth user experience. In other words: not only “it works,” but also “it’s pleasant to use.”"
+                },
+                "approach": {
+                    "title": "My Approach",
+                    "text": "I chose Next.js (App Router) because it’s fast, modern, and a great fit for building a polished React-based web app. TypeScript helped me keep everything structured and reduce mistakes early. For styling, I used Tailwind CSS so I could build a responsive and consistent UI quickly.",
+                    "text2": "Inside the app, I used React Hooks to manage settings and update the generated password instantly whenever the user changes an option. Users can adjust things in real time — like password length and which character sets to include — to generate a password that fits their needs.",
+                    "text3": "I deployed the application on Vercel, which integrates seamlessly with Next.js. The code is maintained on GitHub with a clean structure and version control best practices. When designing the interface, I focused on clarity and speed: users should be able to generate a secure password in just a few clicks."
+                },
+                "results": {
+                    "title": "Results",
+                    "text": "The password generator is live and fully usable on Vercel. This project shows that I can use modern web technologies to build something that’s not only technically solid, but also well-designed and user-friendly. For me, it was a strong step in growing my web development skills and building practical, user-focused tools."
+                },
+                "skills": {
+                    "title": "Skills & Tools",
+                    "tag1": "Frontend Development",
+                    "tag2": "UI/UX Design"
+                }
+            },
+            "stockScreener": {
+                "title": "Live Stock Screener",
+                "subtitle": "Interactive Python Web Application for Real-Time Stock Analysis",
+                "role": "Developer",
+                "liveApp": {
+                    "title": "Try It Live",
+                    "text": "Below is the fully functional stock screener running in real-time. You can interact with it directly to filter and analyze stock data.",
+                    "openBtn": "Open Full App in New Tab →"
+                },
+                "overview": {
+                    "title": "Project Overview",
+                    "text": "This live stock screener is a web-based Python application built with Streamlit that allows users to filter and analyze stocks based on various financial metrics in real-time. The application demonstrates my growing skills in Python development and data visualization, marking my transition from pure design work to functional software development."
+                },
+                "challenge": {
+                    "title": "The Challenge",
+                    "text": "As I've been teaching myself Python and web development, I wanted to create a practical application that goes beyond static design projects. The challenge was to build a fully functional web application that processes real financial data, provides an intuitive user interface, and runs reliably in a production environment accessible to anyone with an internet connection."
+                },
+                "approach": {
+                    "title": "My Approach",
+                    "text": "I chose Streamlit as the framework because it allows Python developers to create interactive web applications with minimal frontend code. The application fetches real-time stock data and provides filtering capabilities based on key financial metrics. Users can customize their screening criteria and instantly see the results, making it a practical tool for stock analysis.",
+                    "text2": "After developing the application locally, I deployed it to Streamlit Cloud, making it publicly accessible. This required setting up proper dependency management, ensuring the code runs efficiently in a cloud environment, and optimizing the user experience for web browsers."
+                },
+                "results": {
+                    "title": "Results",
+                    "text": "The live stock screener is now fully operational and demonstrates my ability to create functional web applications using Python. This project represents an important milestone in my learning journey, showing that I can not only design digital experiences but also build the technology behind them."
+                },
+                "skills": {
+                    "title": "Skills & Tools",
+                    "tag1": "Data Visualization",
+                    "tag2": "Web Development",
+                    "tag3": "API Integration"
+                }
+            }
+        }
+    },
+    "nl": {
+        "nav": {
+            "about": "Over Mij",
+            "skills": "Vaardigheden",
+            "projects": "Projecten",
+            "contact": "Contact"
+        },
+        "hero": {
+            "greeting": "Developer & Designer",
+            "subtitle": "Digitale Producten Bouwen met Code en Creatief Denken",
+            "description": "Functionele webapplicaties maken met Next.js, Python en TypeScript—ondersteund door een sterke basis in design en gebruikerservaring",
+            "cta": "Bekijk Mijn Werk"
+        },
+        "about": {
+            "title": "Over Mij",
+            "profession": "Communication & Multimedia Designer",
+            "paragraph1": "Ik ben een multimedia designer en developer en ben onlangs afgestudeerd aan Avans Hogeschool in Breda. Ik hou ervan om creatief denken te combineren met techniek, zodat een idee niet alleen mooi oogt, maar ook echt goed werkt. Voor mij zit de uitdaging in het maken van digitale producten die logisch aanvoelen, prettig te gebruiken zijn en er tegelijk sterk uitzien.",
+            "paragraph2": "In mijn werk let ik op het totaalplaatje: van concept en visueel ontwerp tot interactie en uitvoering. Ik vind het leuk om te spelen met details zoals animaties, micro-interacties en flow, omdat juist die dingen een ervaring afmaken. Daarbij probeer ik altijd keuzes te maken die passen bij het doel van het project én bij de gebruiker.",
+            "paragraph3": "Naast design ben ik mezelf actief aan het ontwikkelen in development. Ik leer continu bij over webdevelopment en het bouwen van interactieve digitale toepassingen. In deze portfolio laat ik projecten zien waarin ik onderzoek hoe design en code samen kunnen werken. Elk project is voor mij een kans om iets nieuws te proberen, mijn skills te verbeteren en digitale ervaringen te maken die niet alleen functioneel zijn, maar ook een beetje blijven hangen."
+        },
+        "skills": {
+            "title": "Vaardigheden",
+            "design": {
+                "title": "Design"
+            },
+            "development": {
+                "title": "Development"
+            },
+            "multimedia": {
+                "title": "Multimedia",
+                "videoEditing": "Video Editing",
+                "motionGraphics": "Motion Graphics",
+                "photography": "Fotografie",
+                "modeling": "3D Modelleren"
+            }
+        },
+        "projects": {
+            "title": "Mijn Werk",
+            "filter": {
+                "all": "Alle",
+                "completed": "Afgerond",
+                "inProgress": "In Uitvoering"
+            },
+            "sort": {
+                "label": "Sorteer op:",
+                "newest": "Nieuwste Eerst",
+                "oldest": "Oudste Eerst"
+            },
+            "statusCompleted": "Afgerond",
+            "statusInProgress": "In Uitvoering",
+            "viewProject": "Bekijk Project"
+        },
+        "contact": {
+            "title": "Neem Contact Op",
+            "description": "Ik sta open voor nieuwe mogelijkheden en samenwerkingen."
+        },
+        "footer": {
+            "copyright": "© 2025 Dinand Dap. Alle rechten voorbehouden."
+        },
+        "project": {
+            "backLink": "← Terug naar Portfolio",
+            "backToProjects": "← Terug naar Alle Projecten",
+            "meta": {
+                "role": "Rol:",
+                "tools": "Tools:",
+                "year": "Jaar:",
+                "period": "Periode:"
+            },
+            "beverage": {
+                "title": "Drankcampagne",
+                "subtitle": "3D Productvisualisatie & Campagne Design",
+                "role": "3D Artist & Designer",
+                "overview": {
+                    "title": "Project Overzicht",
+                    "text": "Dit project omvatte het creëren van een fotorealistische 3D productvisualisatie voor een drankmarketingcampagne. Het doel was om opvallend promotiemateriaal te produceren dat gebruikt kon worden voor digitale en print media. De hoofdfocus van deze opdracht lag op het verdiepen in 3D-software en het experimenteren met belichting, materialen en compositie om een niveau van realisme te bereiken dat kon evenaren met – of zelfs beter kon zijn dan – traditionele productfotografie."
+                },
+                "challenge": {
+                    "title": "De Uitdaging",
+                    "text": "De intentie van deze opdracht was om verschillende visuele opties voor marketingdoeleinden te verkennen, met een professionele en strakke uitstraling als eindresultaat. Om dit te bereiken, heb ik mezelf 3D-software aangeleerd met Blender, zodat ik zelfstandig hoogwaardige productvisualisaties kan maken, zonder afhankelijk te zijn van productieteams voor fotografie of andere traditionele marketingmiddelen."
+                },
+                "approach": {
+                    "title": "Mijn Aanpak",
+                    "text": "Voordat ik überhaupt 3D-software opende, moest ik eerst de drank zelf ontwerpen. Zodra het labelontwerp klaar was, creëerde ik een precieze UV-map zodat Blender het label correct om het 3D-model van het blikje kon wikkelen. Deze stap kostte de meeste tijd, omdat elke kleine aanpassing het label kon verschuiven en het perfect op het oppervlak moest zitten.",
+                    "text2": "Daarna gebruikte ik Blender om de drankfles te modelleren en renderen, met een sterke focus op realisme en presentatie. Ik creëerde een realistische glasshader met juiste breking en transparantie, ontwierp een driepunts verlichtingsopstelling om het product te benadrukken, en componeerde de scène zorgvuldig om het oog van de kijker te leiden. Tot slot verbeterde ik de kleuren en het contrast in Photoshop om het visuele materiaal klaar te maken voor professionele marketingcampagnes.",
+                    "uvCaption": "UV-labelontwerp en mapping voor het drankblikje"
+                },
+                "results": {
+                    "title": "Resultaten",
+                    "text": "De uiteindelijke render legde met succes de premium kwaliteit en verfrissende aantrekkingskracht van het product vast. Het visuele materiaal werd gebruikt over meerdere marketingkanalen en hielp bij het vestigen van een samenhangende merkidentiteit voor de campagne."
+                },
+                "skills": {
+                    "title": "Vaardigheden & Tools",
+                    "tag1": "3D Modelleren",
+                    "tag2": "Productvisualisatie",
+                    "tag3": "Lichtontwerp",
+                    "tag4": "Materiaalcreatie"
+                },
+                "moreVisuals": {
+                    "title": "Meer Visueel Materiaal"
+                }
+            },
+            "marketing": {
+                "title": "Marketing Contentpakket",
+                "subtitle": "Social Media Content voor Voetbalclub",
+                "role": "Designer & Developer",
+                "overview": {
+                    "title": "Project Overzicht",
+                    "text": "Dit marketing contentpakket werd gemaakt voor de social media kanalen van mijn voetbalclub. Ik voetbal mijn hele leven al sinds mijn zesde, en in 2020 maakte ik mijn debuut voor het eerste elftal. Toen de club en het team meer geïnteresseerd raakten in het vergroten van het online bereik, leek een contentpakket gebaseerd op de speelshirts om opstellingen en man of the match aankondigingen te presenteren een fantastisch idee. Op deze manier zijn de club en het team duidelijk zichtbaar op social media, en we hopen dat dit helpt om nieuwe leden aan te trekken."
+                },
+                "challenge": {
+                    "title": "De Uitdaging",
+                    "text": "De uitdaging was om de zichtbaarheid op social media platforms te vergroten met als doel nieuwe leden aan te trekken en bestaande leden op de hoogte te houden van de wekelijkse opstellingen en man of the match aankondigingen. Op deze manier onderhouden we ook de interactie met de supporters."
+                },
+                "approach": {
+                    "title": "Mijn Aanpak",
+                    "text": "Eerst moest ik het 3D-model van het voetbalshirt maken. Toen dat klaar was, gebruikte ik UV-maps om de bijbehorende designs op de shirts toe te passen. Vervolgens creëerde ik de juiste compositie en belichting en renderde ik een animatie van 10 seconden. Daarna importeerde ik deze clips in After Effects om de laatste details toe te voegen, en toen waren ze klaar om gedeeld te worden op Instagram."
+                },
+                "results": {
+                    "title": "Resultaten",
+                    "text": "De resultaten vielen erg goed uit en de visuals worden vandaag de dag nog steeds gebruikt. Hieronder zie je voorbeelden van de uiteindelijke content die voor de social media kanalen van de club is gemaakt."
+                },
+                "skills": {
+                    "title": "Vaardigheden & Tools",
+                    "tag1": "3D Modelleren",
+                    "tag2": "UV Mapping",
+                    "tag3": "Animatie",
+                    "tag4": "Social Media Content"
+                }
+            },
+            "vunzige": {
+                "title": "Stage Vunzige Deuntjes",
+                "subtitle": "Videograaf & Editor voor Urban Music Festivalmerk",
+                "role": "Videograaf & Editor",
+                "period": "September 2023 - Januari 2024",
+                "overview": {
+                    "title": "Project Overzicht",
+                    "text": "Vunzige Deuntjes is een urban music en festivalmerk bekend om zijn hiphop, R&B en dancehall evenementen in Nederland en België. Ze organiseren meer dan 100 evenementen per jaar en hosten het Vunzige Deuntjes Festival in het Amsterdamse Bos, dat tienduizenden bezoekers trekt.",
+                    "text2": "Tijdens mijn stage bij Vunzige Deuntjes werkte ik als videograaf en video editor en creëerde ik content voor social media en evenementenpromotie. Ik hielp de sfeer van clubavonden en festivals vast te leggen en verwerkte deze beelden tot korte video's zoals aftermovies, teasers en highlight clips voor platforms zoals Instagram en TikTok."
+                },
+                "challenge": {
+                    "title": "De Uitdaging",
+                    "text": "Het hoofddoel van mijn stage was om de online zichtbaarheid van Vunzige Deuntjes te versterken door consistente, hoogwaardige videocontent. De uitdaging was om de energie van de evenementen te vertalen naar korte, boeiende video's die goed werken op social media, passen bij de merkidentiteit en helpen om zowel nieuwe bezoekers als terugkerende fans aan te trekken."
+                },
+                "approach": {
+                    "title": "Mijn Aanpak",
+                    "text": "Ik begon met het leren kennen van de merkidentiteit en bestaande contentstijl: het type shots, pacing, kleuren en typografie die ze gebruiken. Tijdens evenementen concentreerde ik me op het vastleggen van crowdmomenten, artiesten, podiumvisualisaties en kleine details die het verhaal van de avond vertellen.",
+                    "text2": "Na elk evenement selecteerde ik de sterkste beelden, maakte een montage in Premiere Pro en voegde titels, overlays en subtiele motion graphics toe in After Effects. Ik experimenteerde met verschillende formaten (reels, stories, horizontale edits) zodat de content gebruikt kon worden op meerdere platforms. Gedurende het hele proces werkte ik nauw samen met het interne team en verwerkte ik feedback om ervoor te zorgen dat de video's aansloten bij de tone of voice en campagnedoelen van Vunzige Deuntjes."
+                },
+                "results": {
+                    "title": "Resultaten",
+                    "text": "De stage resulteerde in een reeks afgewerkte video-assets die gebruikt werden op de social media kanalen van Vunzige Deuntjes om evenementen te promoten en community engagement op te bouwen. De content hielp volgers een duidelijke indruk te geven van de festival- en clubervaring en voorzag het team van een herbruikbare visuele stijl voor toekomstige videocontent.",
+                    "text2": "Verschillende video's bleven na mijn stage gebruikt worden als onderdeel van doorlopende promotie, wat aantoont dat het materiaal paste bij zowel het merk als de langetermijn communicatiebehoeften."
+                },
+                "report": {
+                    "title": "Stage Verkenning",
+                    "text": "Als onderdeel van mijn academische vereisten heb ik mijn stage-ervaring gedocumenteerd in een gedetailleerde verkenning. Dit document reflecteert op de uitdagingen, leermomenten en professionele groei tijdens mijn tijd bij Vunzige Deuntjes.",
+                    "viewBtn": "👁️ Bekijk Volledig Scherm (PDF)",
+                    "downloadBtn": "📄 Download Stage Verkenning (PDF)"
+                },
+                "skills": {
+                    "title": "Vaardigheden & Tools",
+                    "tag1": "Video Editing",
+                    "tag2": "Motion Graphics",
+                    "tag3": "Videografie",
+                    "tag4": "Social Media Content",
+                    "tag5": "Evenement Coverage"
+                }
+            },
+            "thermal": {
+                "title": "Thermal AI",
+                "subtitle": "Afstudeerproject: De Milieu-impact van AI Voelbaar Maken",
+                "role": "Designer, Developer & Onderzoeker",
+                "period": "Januari 2025 - September 2025",
+                "research": {
+                    "title": "Onderzoeksvraag",
+                    "text": "Hoe kan een embodied experience worden ingezet om gebruikers van KI-toepassingen (20-30 jaar) bewust te maken van de negatieve milieu-impact, met als doel een waardevolle reflectie op hun eigen KI gebruik?"
+                },
+                "overview": {
+                    "title": "Project Overzicht",
+                    "text": "Kunstmatige Intelligentie voelt vaak als magie: moeiteloos en onzichtbaar. Maar achter elke prompt en elk gegenereerd beeld schuilt een groeiende ecologische kost van energie en water. Dit project, Thermal AI, duikt onder de oppervlakte van onze digitale tools. Het onderzoekt hoe we de abstracte milieu-impact van AI kunnen omzetten in een directe, fysieke ervaring om zo een diepere bewustwording en reflectie te stimuleren."
+                },
+                "problem": {
+                    "title": "Het Probleem",
+                    "text": "Kunstmatige Intelligentie (AI) is een onmisbaar onderdeel van ons leven geworden. Achter de interfaces van tools als ChatGPT en Midjourney gaat echter een onzichtbare wereld schuil van immens energieverbruik. Deze ecologische kosten blijven voor de meeste gebruikers abstract en onbekend. Zo kan een enkele vraag aan ChatGPT tot wel 100 keer meer energie verbruiken dan een normale Google-zoekopdracht. Dit afstudeerproject Thermal AI stelt de vraag: 'Hoe kan een embodied experience worden ingezet om gebruikers van KI-toepassingen bewust te maken van de negatieve milieu-impact, met als doel een waardevolle reflectie op hun eigen KI gebruik?'",
+                    "text2": "Het project richt zich op jongvolwassenen (20-30 jaar), een doelgroep die dagelijks AI gebruikt maar vaak de concrete milieugevolgen van hun digitale gedrag niet kent. Het kernprobleem is dat de ecologische voetafdruk van AI – van het trainen van modellen tot het uitvoeren van een simpele prompt – volledig onzichtbaar is, wat bewustwording in de weg staat."
+                },
+                "solution": {
+                    "title": "Ontwerpoplossing",
+                    "text": "De ontwerpoplossing is Thermal AI: een prototype dat de abstracte milieu-impact van AI vertaalt naar een directe, fysieke ervaring (embodied experience). Het systeem bestaat uit een thermische muismat die in temperatuur stijgt naarmate het AI-gebruik versterkt met een bijbehorende interface die dit proces visueel ondersteunt.",
+                    "text2": "Wanneer een gebruiker een taak uitvoert, voelt deze de energie impact van de digitale actie letterlijk als warmte op de onderarm. Een complexe taak, zoals het genereren van een afbeelding, resulteert in een snelle en intense opwarming, terwijl een simpele vraag een subtielere warmteontwikkeling geeft.",
+                    "text3": "Door deze directe koppeling wordt de gebruiker op een intuïtieve en confronterende manier bewust gemaakt van de energie die zijn of haar digitale acties verbruiken. Thermal AI is niet alleen een technologische tool, maar ook een instrument voor reflectie. Het ontwerp nodigt gebruikers uit om na te denken over hun eigen AI-gedrag en stimuleert een duurzamere omgang met de technologie die ons dagelijks leven steeds meer vormgeeft."
+                },
+                "results": {
+                    "title": "Projectresultaten",
+                    "text": "Hieronder zie je het definitieve prototype en demonstraties van het Thermal AI-systeem in actie."
+                },
+                "thesis": {
+                    "title": "Afstudeerscriptie",
+                    "text": "Als onderdeel van mijn afstudeerproject heb ik het volledige onderzoek, ontwerpproces en bevindingen gedocumenteerd in een gedetailleerde scriptie. Dit document verkent het theoretisch kader, de methodologie, prototypeontwikkeling en evaluatieresultaten.",
+                    "viewBtn": "👁️ Bekijk Volledig Scherm (PDF)",
+                    "downloadBtn": "📄 Download Afstudeerscriptie (PDF)"
+                },
+                "skills": {
+                    "title": "Vaardigheden & Tools",
+                    "tag1": "Hardware Prototyping",
+                    "tag2": "Gebruikersonderzoek",
+                    "tag3": "Interaction Design",
+                    "tag4": "Belichaamde Ervaring"
+                }
+            },
+            "passwordGenerator": {
+                "title": "Wachtwoord Generator",
+                "subtitle": "Moderne, Veilige Wachtwoordgenerator Gebouwd met Next.js & TypeScript",
+                "role": "Full-Stack Developer",
+                "liveApp": {
+                    "title": "Probeer Het Live",
+                    "text": "Hieronder draait de volledig functionele wachtwoordgenerator in realtime. Je kunt veilige wachtwoorden genereren met aanpasbare opties direct in je browser.",
+                    "openBtn": "Open Volledige App in Nieuw Tabblad →",
+                    "githubBtn": "Bekijk op GitHub →"
+                },
+                "overview": {
+                    "title": "Project Overzicht",
+                    "text": "Voor dit project heb ik een moderne wachtwoordgenerator gebouwd met Next.js en TypeScript. Met deze webapp kunnen gebruikers snel sterke wachtwoorden maken en ze makkelijk aanpassen, bijvoorbeeld door de lengte te veranderen of bepaalde tekens wel/niet toe te staan. Ik heb extra aandacht besteed aan een interface die er strak uitziet en fijn werkt, zodat je zonder gedoe een veilig wachtwoord kunt genereren."
+                },
+                "challenge": {
+                    "title": "De Uitdaging",
+                    "text": "Veilige wachtwoorden zijn belangrijker dan ooit, maar veel wachtwoordgeneratoren voelen oud aan of geven weinig opties. Ik wilde een tool maken die twee dingen goed doet: technisch sterke (veilige) wachtwoorden genereren én een gebruikservaring bieden die modern en prettig is. Dus niet alleen “het werkt”, maar ook “het voelt goed om te gebruiken”."
+                },
+                "approach": {
+                    "title": "Mijn Aanpak",
+                    "text": "Ik heb gekozen voor Next.js (App Router) omdat het snel is, modern werkt met React en handig is om een webapp strak op te bouwen. TypeScript hielp me om overzicht te houden en fouten sneller te voorkomen. Voor de styling gebruikte ik Tailwind CSS, omdat ik daarmee snel een responsive en consistente UI kon maken.",
+                    "text2": "In de applicatie gebruik ik React Hooks om de instellingen bij te houden en het wachtwoord direct te updaten zodra je iets aanpast. Je kunt realtime spelen met opties zoals lengte en welke karaktersets je wilt gebruiken, zodat je precies krijgt wat je nodig hebt.",
+                    "text3": "De app heb ik gedeployed op Vercel, wat heel soepel samenwerkt met Next.js. De code staat op GitHub en ik werk met een nette structuur en versiebeheer. Bij het ontwerpen van de interface heb ik vooral gekeken naar duidelijkheid en snelheid: in een paar klikken moet je een wachtwoord hebben dat past bij jouw eisen."
+                },
+                "results": {
+                    "title": "Resultaten",
+                    "text": "De wachtwoordgenerator staat online en is volledig te gebruiken via Vercel. Dit project laat zien dat ik moderne webtechnieken kan inzetten om iets te bouwen dat niet alleen technisch klopt, maar ook netjes is uitgewerkt in design en gebruiksgemak. Voor mij was dit een goede stap in het verder ontwikkelen van mijn webdevelopment skills en het bouwen van praktische, gebruikersgerichte tools."
+                },
+                "skills": {
+                    "title": "Vaardigheden & Tools",
+                    "tag1": "Frontend Development",
+                    "tag2": "UI/UX Design"
+                }
+            },
+            "stockScreener": {
+                "title": "Live Aandelenschermer",
+                "subtitle": "Interactieve Python Webapplicatie voor Realtime Aandelenanalyse",
+                "role": "Developer",
+                "liveApp": {
+                    "title": "Probeer Het Live",
+                    "text": "Hieronder draait de volledig functionele aandelenschermer in realtime. Je kunt er direct mee interacteren om aandelendata te filteren en analyseren.",
+                    "openBtn": "Open Volledige App in Nieuw Tabblad →"
+                },
+                "overview": {
+                    "title": "Project Overzicht",
+                    "text": "Deze live aandelenschermer is een webgebaseerde Python-applicatie gebouwd met Streamlit waarmee gebruikers in realtime aandelen kunnen filteren en analyseren op basis van verschillende financiële statistieken. De applicatie demonstreert mijn groeiende vaardigheden in Python-ontwikkeling en datavisualisatie en markeert mijn transitie van puur designwerk naar functionele softwareontwikkeling."
+                },
+                "challenge": {
+                    "title": "De Uitdaging",
+                    "text": "Terwijl ik mezelf Python en webdevelopment aanleer, wilde ik een praktische applicatie maken die verder gaat dan statische designprojecten. De uitdaging was om een volledig functionele webapplicatie te bouwen die echte financiële data verwerkt, een intuïtieve gebruikersinterface biedt en betrouwbaar draait in een productieomgeving die toegankelijk is voor iedereen met een internetverbinding."
+                },
+                "approach": {
+                    "title": "Mijn Aanpak",
+                    "text": "Ik koos Streamlit als framework omdat het Python-ontwikkelaars in staat stelt om interactieve webapplicaties te maken met minimale frontend-code. De applicatie haalt realtime aandelendata op en biedt filtermogelijkheden op basis van belangrijke financiële statistieken. Gebruikers kunnen hun screeningcriteria aanpassen en direct de resultaten zien, waardoor het een praktische tool is voor aandelenanalyse.",
+                    "text2": "Na het lokaal ontwikkelen van de applicatie, heb ik deze naar Streamlit Cloud gedeployed, waardoor het publiekelijk toegankelijk werd. Dit vereiste het opzetten van correct dependency management, ervoor zorgen dat de code efficiënt draait in een cloudomgeving, en het optimaliseren van de gebruikerservaring voor webbrowsers."
+                },
+                "results": {
+                    "title": "Resultaten",
+                    "text": "De live aandelenschermer is nu volledig operationeel en demonstreert mijn vermogen om functionele webapplicaties te maken met Python. Dit project vertegenwoordigt een belangrijke mijlpaal in mijn leertraject en laat zien dat ik niet alleen digitale ervaringen kan ontwerpen, maar ook de technologie erachter kan bouwen."
+                },
+                "skills": {
+                    "title": "Vaardigheden & Tools",
+                    "tag1": "Datavisualisatie",
+                    "tag2": "Webdevelopment",
+                    "tag3": "API Integratie"
+                }
+            }
+        }
+    }
+}

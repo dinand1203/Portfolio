@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Live Stock Screener - Python Web Application by Dinand Dap">
+    <title>Live Stock Screener - Dinand Dap</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="project-detail.css">
+    <style>
+        .iframe-container {
+            position: relative;
+            width: 100%;
+            height: 800px;
+            margin: 2rem 0;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .iframe-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        @media (max-width: 768px) {
+            .iframe-container {
+                height: 600px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container">
+            <a href="../index.html" class="nav-brand">Dinand Dap</a>
+            <div class="nav-right">
+                <a href="../index.html" class="back-link" data-translate="project.backLink">← Back to Portfolio</a>
+                <button id="lang-toggle" class="lang-toggle" aria-label="Toggle language">
+                    <span class="lang-flag">🇳🇱</span>
+                    <span class="lang-text">NL</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Project Hero -->
+    <section class="project-hero">
+        <div class="container">
+            <h1 class="project-hero-title" data-translate="project.stockScreener.title">Live Stock Screener</h1>
+            <p class="project-hero-subtitle" data-translate="project.stockScreener.subtitle">Interactive Python Web Application for Real-Time Stock Analysis</p>
+            <div class="project-meta">
+                <span class="meta-item">
+                    <strong data-translate="project.meta.role">Role:</strong> <span data-translate="project.stockScreener.role">Developer</span>
+                </span>
+                <span class="meta-item">
+                    <strong data-translate="project.meta.tools">Tools:</strong> Python, Streamlit
+                </span>
+                <span class="meta-item">
+                    <strong data-translate="project.meta.year">Year:</strong> 2024
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Content -->
+    <section class="project-content">
+        <div class="container-narrow">
+
+            <!-- Live Application -->
+            <div class="content-section">
+                <h2 data-translate="project.stockScreener.liveApp.title">Try It Live</h2>
+                <p data-translate="project.stockScreener.liveApp.text">Below is the fully functional stock screener running in real-time. You can interact with it directly to filter and analyze stock data.</p>
+
+                <div style="margin-bottom: 1rem;">
+                    <a href="https://stock-screener-ntyw787kxappmeuybnxowhn.streamlit.app" target="_blank" class="btn btn-primary" style="display: inline-block;" data-translate="project.stockScreener.liveApp.openBtn">
+                        Open Full App in New Tab →
+                    </a>
+                </div>
+
+                <div class="iframe-container">
+                    <iframe
+                        src="https://stock-screener-ntyw787kxappmeuybnxowhn.streamlit.app/?embedded=true"
+                        title="Live Stock Screener Application"
+                        frameborder="0"
+                        allowfullscreen
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    ></iframe>
+                </div>
+            </div>
+
+            <!-- Project Overview -->
+            <div class="content-section">
+                <h2 data-translate="project.stockScreener.overview.title">Project Overview</h2>
+                <p data-translate="project.stockScreener.overview.text">This live stock screener is a web-based Python application built with Streamlit that allows users to filter and analyze stocks based on various financial metrics in real-time. The application demonstrates my growing skills in Python development and data visualization, marking my transition from pure design work to functional software development.</p>
+            </div>
+
+            <!-- Challenge -->
+            <div class="content-section">
+                <h2 data-translate="project.stockScreener.challenge.title">The Challenge</h2>
+                <p data-translate="project.stockScreener.challenge.text">As I've been teaching myself Python and web development, I wanted to create a practical application that goes beyond static design projects. The challenge was to build a fully functional web application that processes real financial data, provides an intuitive user interface, and runs reliably in a production environment accessible to anyone with an internet connection.</p>
+            </div>
+
+            <!-- Solution -->
+            <div class="content-section">
+                <h2 data-translate="project.stockScreener.approach.title">My Approach</h2>
+                <p data-translate="project.stockScreener.approach.text">I chose Streamlit as the framework because it allows Python developers to create interactive web applications with minimal frontend code. The application fetches real-time stock data and provides filtering capabilities based on key financial metrics. Users can customize their screening criteria and instantly see the results, making it a practical tool for stock analysis.</p>
+                <p data-translate="project.stockScreener.approach.text2">After developing the application locally, I deployed it to Streamlit Cloud, making it publicly accessible. This required setting up proper dependency management, ensuring the code runs efficiently in a cloud environment, and optimizing the user experience for web browsers.</p>
+            </div>
+
+            <!-- Results -->
+            <div class="content-section">
+                <h2 data-translate="project.stockScreener.results.title">Results</h2>
+                <p data-translate="project.stockScreener.results.text">The live stock screener is now fully operational and demonstrates my ability to create functional web applications using Python. This project represents an important milestone in my learning journey, showing that I can not only design digital experiences but also build the technology behind them.</p>
+            </div>
+
+            <!-- Skills Used -->
+            <div class="content-section">
+                <h2 data-translate="project.stockScreener.skills.title">Skills & Tools</h2>
+                <div class="skills-tags">
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Streamlit</span>
+                    <span class="skill-tag" data-translate="project.stockScreener.skills.tag1">Data Visualization</span>
+                    <span class="skill-tag" data-translate="project.stockScreener.skills.tag2">Web Development</span>
+                    <span class="skill-tag" data-translate="project.stockScreener.skills.tag3">API Integration</span>
+                </div>
+            </div>
+
+            <!-- Navigation -->
+            <div class="project-navigation">
+                <a href="../index.html#projects" class="btn btn-primary" data-translate="project.backToProjects">← Back to All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p data-translate="footer.copyright">&copy; 2025 Dinand Dap. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>

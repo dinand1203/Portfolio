@@ -1,0 +1,92 @@
+[
+    {
+        "title": {
+            "en": "Live Stock Screener",
+            "nl": "Live Aandelenschermer"
+        },
+        "description": {
+            "en": "Interactive Python web application for real-time stock analysis and filtering based on financial metrics.",
+            "nl": "Interactieve Python webapplicatie voor realtime aandelenanalyse en filtering op basis van financiële statistieken."
+        },
+        "status": "completed",
+        "tags": ["Python", "Streamlit", "Web Development"],
+        "image": "images/projects/Stock screener main picture.png",
+        "link": "projects/stock-screener.html",
+        "date": "2025-12"
+    },
+    {
+        "title": {
+            "en": "Password Generator",
+            "nl": "Wachtwoord Generator"
+        },
+        "description": {
+            "en": "Modern, secure password generator built with Next.js and TypeScript. Generate strong, customizable passwords with an intuitive interface.",
+            "nl": "Moderne, veilige wachtwoordgenerator gebouwd met Next.js en TypeScript. Genereer sterke, aanpasbare wachtwoorden met een intuïtieve interface."
+        },
+        "status": "completed",
+        "tags": ["Next.js", "TypeScript", "Tailwind CSS"],
+        "image": "images/projects/password-generator-thumbnail.png",
+        "link": "projects/password-generator.html",
+        "date": "2025-11"
+    },
+    {
+        "title": {
+            "en": "Thermal AI (Graduation Work)",
+            "nl": "Thermal AI (Afstudeerwerk)"
+        },
+        "description": {
+            "en": "Graduation project exploring how embodied experience can raise awareness about AI's environmental impact through a thermal mousepad prototype.",
+            "nl": "Afstudeerproject dat onderzoekt hoe belichaamde ervaring bewustzijn kan creëren over de milieu-impact van AI via een thermisch muismat prototype."
+        },
+        "status": "completed",
+        "tags": ["JavaScript", "Arduino", "User Research"],
+        "image": "images/projects/Main Mockup thermal-ai 2.png",
+        "link": "projects/thermal-ai-graduation.html",
+        "date": "2025-09"
+    },
+    {
+        "title": {
+            "en": "Internship Vunzige Deuntjes",
+            "nl": "Stage Vunzige Deuntjes"
+        },
+        "description": {
+            "en": "Videographer and editor internship creating social media content for urban music festival brand with 100+ events annually.",
+            "nl": "Videograaf en editor stage waarbij social media content gemaakt werd voor urban music festivalmerk met 100+ evenementen per jaar."
+        },
+        "status": "completed",
+        "tags": ["Video Editing", "Motion Graphics", "Social Media Content"],
+        "image": "images/projects/Main picture vunzige deuntjes.png",
+        "link": "projects/internship-vunzige-deuntjes.html",
+        "date": "2023-09"
+    },
+    {
+        "title": {
+            "en": "Marketing Content Package",
+            "nl": "Marketing Contentpakket"
+        },
+        "description": {
+            "en": "Social media content package for football club featuring 3D animated player shirts for line-ups and match announcements.",
+            "nl": "Social media contentpakket voor voetbalclub met 3D geanimeerde speelshirts voor opstellingen en wedstrijdaankondigingen."
+        },
+        "status": "completed",
+        "tags": ["3D Modelling", "Animation", "Design"],
+        "image": "images/projects/Main picture marketing-content-package.png",
+        "link": "projects/marketing-content-package.html",
+        "date": "2023-03"
+    },
+    {
+        "title": {
+            "en": "Beverage Campaign",
+            "nl": "Drankcampagne"
+        },
+        "description": {
+            "en": "A photorealistic 3D product visualization for a beverage marketing campaign created in Blender.",
+            "nl": "Een fotorealistische 3D productvisualisatie voor een drankmarketingcampagne gemaakt in Blender."
+        },
+        "status": "completed",
+        "tags": ["3D Modelling", "Design"],
+        "image": "images/projects/beverage_campain.png",
+        "link": "projects/beverage-campaign.html",
+        "date": "2022-11"
+    }
+]

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Dinand Dap - Communication & Multimedia Design Graduate">
+    <title>Dinand Dap - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-brand">Dinand Dap</div>
+            <ul class="nav-menu">
+                <li><a href="#about" data-translate="nav.about">About</a></li>
+                <li><a href="#skills" data-translate="nav.skills">Skills</a></li>
+                <li><a href="#projects" data-translate="nav.projects">Projects</a></li>
+                <li><a href="#contact" data-translate="nav.contact">Contact</a></li>
+            </ul>
+            <button id="lang-toggle" class="lang-toggle" aria-label="Toggle language">
+                <span class="lang-flag">🇳🇱</span>
+                <span class="lang-text">NL</span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <video class="hero-video" autoplay loop muted playsinline>
+            <source src="images/projects/Banner portfolio def.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="hero-title" data-translate="hero.greeting">Creating Digital Experiences</h1>
+            <p class="hero-subtitle" data-translate="hero.subtitle">Communication & Multimedia Design Graduate from Avans University of Applied Sciences</p>
+            <p class="hero-description" data-translate="hero.description">Bridging design and development to build engaging solutions</p>
+            <a href="#projects" class="btn btn-primary" data-translate="hero.cta">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title" data-translate="about.title">About Me</h2>
+            <div class="about-content">
+                <div class="about-profile">
+                    <div class="profile-image-wrapper">
+                        <img src="images/projects/Gemini_Generated_Profile_image.png" alt="Dinand Dap" class="profile-image">
+                        <div class="profile-badge" data-translate="about.profession">Communication & Multimedia Designer</div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p data-translate="about.paragraph1">I’m a multimedia designer and developer, and I recently graduated from Avans University of Applied Sciences in Breda. 
+                            I love combining creative thinking with technology, so an idea doesn’t just look good — it actually works well too. 
+                            For me, the challenge is creating digital products that feel intuitive, are enjoyable to use, and look strong at the same time.</p>
+                    <p data-translate="about.paragraph2">In my work, I focus on the full picture: from concept and visual design to interaction and implementation. 
+                            I enjoy refining details like animations, micro-interactions, and user flow, because those small touches often make an experience feel complete. 
+                            I always try to make choices that fit the goal of the project and the people who will use it.</p>
+                    <p data-translate="about.paragraph3">Alongside design, I’m actively growing my development skills. 
+                            I’m constantly learning more about web development and building interactive digital experiences. 
+                            In this portfolio, I share projects where I explore how design and code can work together. Each project is a chance for me to try something new, improve my skills, and create digital experiences that are not only functional, but also memorable.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title" data-translate="skills.title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 data-translate="skills.design.title">Design</h3>
+                    <ul>
+                        <li>UI/UX Design</li>
+                        <li>Adobe Creative Suite</li>
+                        <li>Figma</li>
+                        <li>Prototyping</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3 data-translate="skills.multimedia.title">Multimedia</h3>
+                    <ul>
+                        <li data-translate="skills.multimedia.videoEditing">Video Editing</li>
+                        <li data-translate="skills.multimedia.motionGraphics">Motion Graphics</li>
+                        <li data-translate="skills.multimedia.modeling">3D Modeling</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3 data-translate="skills.development.title">Development</h3>
+                    <ul>
+                        <li>Arduino</li>
+                        <li>HTML/CSS/JavaScript</li>
+                        <li>Python (Learning)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title" data-translate="projects.title">My Work</h2>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all" data-translate="projects.filter.all">All</button>
+                <button class="filter-btn" data-filter="completed" data-translate="projects.filter.completed">Completed</button>
+                <button class="filter-btn" data-filter="in-progress" data-translate="projects.filter.inProgress">In Progress</button>
+            </div>
+            <div id="projects-container" class="projects-grid">
+                <!-- Projects will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title" data-translate="contact.title">Get In Touch</h2>
+            <div class="contact-content">
+                <p data-translate="contact.description">I'm currently open to new opportunities and collaborations.</p>
+                <div class="contact-links">
+                    <a href="mailto:dinand@dap-group.com" class="social-icon" aria-label="Email">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="4" width="20" height="16" rx="2"/>
+                            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/dinand1203" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/dinanddap/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p data-translate="footer.copyright">&copy; 2025 Dinand Dap. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
