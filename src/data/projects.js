@@ -1,0 +1,455 @@
+export const projects = [
+  {
+    id: 'trippilot-ai',
+    title: { en: 'TripPilot AI', nl: 'TripPilot AI' },
+    subtitle: { en: 'AI-Powered Travel Planning Application', nl: 'AI-gestuurd Reisplanningsapp' },
+    year: '2026',
+    role: { en: 'Full-Stack Developer', nl: 'Full-Stack Ontwikkelaar' },
+    status: 'in-progress',
+    tags: ['Next.js', 'TypeScript', 'Gemini AI', 'Supabase'],
+    thumbnail: '/images/projects/icons/trippilotai-icon.png',
+    image: '/images/projects/trippilot-ai-thumbnail.png',
+    overview: {
+      en: 'TripPilot AI is a full-stack web application that takes the stress out of travel planning. Instead of spending hours searching across multiple websites, users simply describe their ideal trip and let Google Gemini AI generate a complete, personalized itinerary — including activities, hotels, and restaurant recommendations — in seconds. From there, every detail can be tweaked, reordered, and saved to a personal account.',
+      nl: 'TripPilot AI is een full-stack webapplicatie die het reisplannen eenvoudig maakt. In plaats van uren te zoeken op meerdere websites beschrijven gebruikers gewoon hun ideale reis, waarna Google Gemini AI in seconden een volledig, gepersonaliseerd reisschema genereert — inclusief activiteiten, hotels en restaurantaanbevelingen. Elk detail kan daarna aangepast, hergeordend en opgeslagen worden in een persoonlijk account.',
+    },
+    features: {
+      en: [
+        'AI Trip Generation — full itineraries via Google Gemini AI',
+        'Smart Budget Management — real-time cost tracking per category',
+        'Drag-and-drop customization — reorder, add, edit, delete, or regenerate items',
+        'Public Trip Discovery — browse and clone community trips',
+        'Social Features — like trips and discover popular destinations',
+        'Secure Authentication — email/password via Supabase',
+        'Responsive UI — Tailwind CSS + shadcn/ui',
+        'Optimistic UI updates — instant feedback without waiting for server',
+      ],
+      nl: [
+        'AI-gegenereerde reisschema\'s via Google Gemini AI',
+        'Slim budgetbeheer — realtime kostentracking per categorie',
+        'Drag-and-drop aanpassing — herorden, voeg toe of verwijder items',
+        'Ontdek publieke trips van de community',
+        'Sociale functies — geef trips een like',
+        'Veilige authenticatie via Supabase',
+        'Responsive UI — Tailwind CSS + shadcn/ui',
+        'Optimistische UI-updates voor directe feedback',
+      ],
+    },
+    approach: {
+      en: [
+        'Built with Next.js and TypeScript as the foundation — chosen for their speed, type-safety, and excellent developer experience. For the UI, I combined Tailwind CSS with shadcn/ui to create a consistent, polished interface that works seamlessly across all screen sizes.',
+        'The AI backbone is Google Gemini, which I integrated via API to generate rich, structured travel itineraries from natural-language prompts. On the backend, I used Supabase for both authentication and the database, giving me real-time data capabilities and a secure auth system out of the box.',
+        'One of the more challenging aspects was building the drag-and-drop interface for reordering itinerary items. Getting the interactions to feel natural and handling optimistic UI updates — so the app responds instantly without waiting for server confirmation — required careful state management throughout the application.',
+      ],
+      nl: [
+        'Gebouwd met Next.js en TypeScript als basis — gekozen vanwege snelheid, type-veiligheid en een prettige developer experience. Voor de UI combineerde ik Tailwind CSS met shadcn/ui om een consistente, verzorgde interface te maken die naadloos werkt op alle schermformaten.',
+        'De AI-kern is Google Gemini, geïntegreerd via API om rijke, gestructureerde reisschema\'s te genereren vanuit gewone taal. Voor de backend gebruikte ik Supabase voor zowel authenticatie als de database, wat mij realtime data-mogelijkheden en een veilig auth-systeem gaf.',
+        'Een van de uitdagendere aspecten was het bouwen van de drag-and-drop interface voor het herordenen van reisitems. Om de interacties natuurlijk te laten aanvoelen en optimistische UI-updates correct te verwerken — zodat de app direct reageert zonder op serverbevestiging te wachten — was zorgvuldig state management vereist.',
+      ],
+    },
+    currentStatus: {
+      en: 'TripPilot AI is currently in active development. The core AI trip generation, budget tracking, and user authentication are fully functional. I\'m currently working on refining the public trip discovery feed and polishing the social features.',
+      nl: 'TripPilot AI is in actieve ontwikkeling. AI-generatie, budgettracking en authenticatie werken volledig. Momenteel wordt de publieke ontdekkingsfeed verfijnd.',
+    },
+    skillTags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'shadcn/ui', 'Google Gemini AI', 'Supabase', 'AI Integration', 'Full-Stack Development', 'API Design'],
+    iconPosition: { x: '7%', y: '16%' },
+  },
+  {
+    id: 'trading-dashboard',
+    title: { en: 'Trading Dashboard', nl: 'Trading Dashboard' },
+    subtitle: { en: 'Self-Hosted Trading Performance Tracker', nl: 'Zelfgehoste Handelsprestatie Tracker' },
+    year: '2026',
+    role: { en: 'Full-Stack Developer', nl: 'Full-Stack Ontwikkelaar' },
+    status: 'completed',
+    tags: ['Python', 'Django', 'pandas', 'Docker'],
+    thumbnail: '/images/projects/icons/trading-dashboard-icon.png',
+    image: '/images/projects/thumbnail-trading-dashboard.png',
+    overview: {
+      en: 'Trading Dashboard is a self-hosted Django web application for tracking and analysing personal trading performance. Built with Django, it lets traders import broker CSV exports, review validated data, and explore their performance through interactive charts and statistics — all behind a private login.',
+      nl: 'Trading Dashboard is een zelfgehoste Django-webapplicatie voor het bijhouden en analyseren van persoonlijke handelsprestaties. Het stelt handelaars in staat om broker CSV-exports te importeren, gevalideerde data te bekijken en prestaties te verkennen via interactieve grafieken en statistieken — alles achter een privé-login.',
+    },
+    features: {
+      en: [
+        'CSV Import with row-by-row validation — flags bad timestamps, invalid side values, missing numeric fields, and commission outliers',
+        'Flagged rows presented for manual review with inline override support before committing to database',
+        'Duplicate detection — prevents re-importing the same trade twice',
+        'Full import history log per user',
+        'Analytics Engine — Win Rate, Profit Factor, Drawdown, Equity Curve, Calendar Heatmap, per-symbol breakdowns',
+        'Interactive Plotly charts — Cumulative P/L, Drawdown, P/L by Hour, Win/Loss Donut',
+        'Filters — Today, This Week, This Month, All Time, custom date range, symbol, side',
+        'Paginated trade log with CSV export, inline edit & delete',
+      ],
+      nl: [
+        'CSV-import met rij-voor-rij-validatie — detecteert slechte timestamps en ontbrekende velden',
+        'Handmatige review van gemarkeerde rijen voor opslaan',
+        'Dubbele handelsdetectie',
+        'Analytics Engine — Win Rate, Profit Factor, Drawdown, Equity Curve, Kalender Heatmap',
+        'Interactieve Plotly-grafieken',
+        'Filters — datum, symbool, kant (Koop/Verkoop)',
+        'Gepagineerd handelslog met CSV-export',
+      ],
+    },
+    approach: {
+      en: [
+        'The analytics logic lives in a standalone analytics.py module that takes a plain DataFrame and returns dicts and DataFrames. This keeps every computation independently testable without a running Django server, and makes it easy to add or tweak metrics without touching the view layer.',
+        'The CSV import uses a two-step flow — validated data is stashed in the session between the preview and confirm steps, so users can review flagged rows before anything is written to the database. This prevents bad data from entering the system while still giving the user control to override individual rows.',
+        'Chart data is built server-side in Python and serialised to JSON in the template context, keeping chart logic in the same layer as the rest of the data processing. SQLite is the right choice here — sufficient for a single-user self-hosted tool, with Docker volume mounting the database file so data persists across container restarts.',
+      ],
+      nl: [
+        'De analytische logica staat in een standalone analytics.py module die een gewone DataFrame verwerkt en dicts en DataFrames teruggeeft. Dit houdt alle berekeningen onafhankelijk testbaar zonder een draaiende Django-server, en maakt het eenvoudig om statistieken toe te voegen zonder de view-laag aan te raken.',
+        'De CSV-import gebruikt een twee-staps-flow — gevalideerde data wordt in de sessie opgeslagen tussen de preview- en bevestigingsstap, zodat gebruikers gemarkeerde rijen kunnen controleren voordat er iets naar de database wordt geschreven. Dit voorkomt slechte data in het systeem, maar geeft de gebruiker toch controle om individuele rijen te overschrijven.',
+        'Grafiekdata wordt server-side in Python gebouwd en als JSON in de templatecontext geserialiseerd. SQLite is hier de juiste keuze — voldoende voor een single-user zelfgehost tool, waarbij het Docker-volume het databasebestand direct koppelt zodat data blijft bestaan na container-herstarts.',
+      ],
+    },
+    techStack: [
+      { layer: 'Backend', tech: 'Python 3, Django 4.2' },
+      { layer: 'Data Processing', tech: 'pandas, NumPy' },
+      { layer: 'Charts', tech: 'Plotly.js (server-side JSON, client-side render)' },
+      { layer: 'Database', tech: 'SQLite' },
+      { layer: 'Auth', tech: 'Django built-in authentication' },
+      { layer: 'Deployment', tech: 'Docker, docker-compose, Gunicorn, WhiteNoise' },
+    ],
+    skillTags: ['Python', 'Django', 'pandas', 'NumPy', 'Plotly.js', 'SQLite', 'Docker', 'Data Analysis', 'Full-Stack Development', 'Data Visualization'],
+    iconPosition: { x: '74%', y: '12%' },
+  },
+  {
+    id: 'csv-order-generator',
+    title: { en: 'CSV Order Generator', nl: 'CSV Bestellingsgenerator' },
+    subtitle: { en: 'Command-Line Python Tool for CSV-Based Order Processing', nl: 'CLI Tool — CSV Prijslijst naar Bestelsysteem' },
+    year: '2026',
+    role: { en: 'Developer', nl: 'Ontwikkelaar' },
+    status: 'completed',
+    tags: ['Python', 'CLI', 'CSV'],
+    thumbnail: '/images/projects/icons/CSv-ordericon.svg',
+    image: '/images/projects/csv-order-generator-thumbnail.png',
+    youtubeEmbed: 'https://www.youtube.com/embed/RgRzjliAAts',
+    overview: {
+      en: 'CSV Order Generator is a command-line Python tool that turns any CSV pricelist into a fully functional order system. You load a menu, pick your items from a clean ASCII table displayed in the terminal, and the tool writes a complete order to an output CSV — including item names, IDs, and prices. No GUI, no dependencies beyond Python\'s standard library, and no assumptions about your column names.',
+      nl: 'CSV Order Generator is een command-line Python tool die elke CSV-prijslijst omzet in een volledig functioneel bestelsysteem. Je laadt een menu, kiest items uit een overzichtelijke ASCII-tabel in de terminal en de tool schrijft een volledige bestelling naar een output CSV — inclusief itemnamen, ID\'s en prijzen. Geen GUI, geen externe afhankelijkheden, en geen aannames over kolomnamen.',
+    },
+    features: {
+      en: [
+        'Works with any CSV pricelist — you choose the column names at runtime',
+        'Displays the menu as a clean ASCII table before ordering',
+        'Validates input at every step — file extension, file existence, column names, and unknown items',
+        'Writes orders to order.csv, appending new entries without duplicating headers',
+        'Each order receives a randomly generated unique ID',
+        'Zero dependencies — pure Python standard library',
+      ],
+      nl: [
+        'Werkt met elke CSV-prijslijst — kolomnamen worden bij het opstarten gekozen',
+        'Toont het menu als een overzichtelijke ASCII-tabel',
+        'Valideert invoer bij elke stap — bestandsextensie, kolomnamen, onbekende items',
+        'Schrijft bestellingen naar order.csv, voegt toe zonder headers te dupliceren',
+        'Elke bestelling krijgt een willekeurig gegenereerde unieke ID',
+        'Geen externe afhankelijkheden — pure Python standaardbibliotheek',
+      ],
+    },
+    approach: {
+      en: [
+        'I built this tool to be completely flexible — it doesn\'t hardcode any column names, so it can work with any CSV pricelist out of the box. The user specifies the relevant columns at startup, and the tool validates everything before proceeding. This makes it reusable across very different use cases, from restaurant menus to product catalogs.',
+        'Robust input validation was a key focus throughout. Every user interaction — entering a filename, selecting column names, or ordering items — is validated and loops until valid input is provided. The append logic for order.csv was also carefully handled to avoid writing duplicate headers when the file already exists.',
+      ],
+      nl: [
+        'Ik heb dit tool volledig flexibel gebouwd — er worden geen kolomnamen hardgecodeerd, zodat het direct werkt met elke CSV-prijslijst. De gebruiker geeft de relevante kolommen op bij het opstarten, en het tool valideert alles voordat het verdergaat. Dit maakt het herbruikbaar voor zeer uiteenlopende use cases, van restaurantmenu\'s tot productcatalogi.',
+        'Robuuste invoervalidatie was een kernfocus. Elke gebruikersinteractie — het invoeren van een bestandsnaam, het kiezen van kolomnamen of het bestellen van items — wordt gevalideerd en herhaald totdat geldige invoer wordt gegeven. De append-logica voor order.csv is ook zorgvuldig afgehandeld om dubbele headers te vermijden als het bestand al bestaat.',
+      ],
+    },
+    skillTags: ['Python', 'CLI Development', 'File I/O', 'Input Validation'],
+    iconPosition: { x: '6%', y: '44%' },
+  },
+  {
+    id: 'live-stock-screener',
+    title: { en: 'Live Stock Screener', nl: 'Live Aandelenscreener' },
+    subtitle: { en: 'Interactive Python Web Application for Real-Time Stock Analysis', nl: 'Interactieve Python Webapplicatie voor Realtime Aandelenanalyse' },
+    year: '2025',
+    role: { en: 'Developer', nl: 'Ontwikkelaar' },
+    status: 'completed',
+    tags: ['Python', 'Streamlit', 'Web Development'],
+    thumbnail: '/images/projects/icons/stockscreener-icon.png',
+    image: '/images/projects/Header-stockscreener.png',
+    liveUrl: 'https://stock-screener-ntyw787kxappmeuybnxowhn.streamlit.app',
+    liveEmbed: 'https://stock-screener-ntyw787kxappmeuybnxowhn.streamlit.app/?embedded=true',
+    overview: {
+      en: 'This live stock screener is a web-based Python application built with Streamlit that allows users to filter and analyze stocks based on various financial metrics in real-time. The application demonstrates my growing skills in Python development and data visualization, marking my transition from pure design work to functional software development.',
+      nl: 'Deze live aandelenscreener is een webgebaseerde Python-applicatie gebouwd met Streamlit waarmee gebruikers aandelen kunnen filteren en analyseren op basis van verschillende financiële statistieken in realtime. De applicatie toont mijn groeiende vaardigheden in Python-ontwikkeling en datavisualisatie, en markeert mijn overgang van puur designwerk naar functionele softwareontwikkeling.',
+    },
+    challenge: {
+      en: 'As I\'ve been teaching myself Python and web development, I wanted to create a practical application that goes beyond static design projects. The challenge was to build a fully functional web application that processes real financial data, provides an intuitive user interface, and runs reliably in a production environment accessible to anyone with an internet connection.',
+      nl: 'Terwijl ik mezelf Python en webontwikkeling aanleer, wilde ik een praktische applicatie bouwen die verder gaat dan statische designprojecten. De uitdaging was een volledig functionele webapplicatie te bouwen die echte financiële data verwerkt, een intuïtieve gebruikersinterface biedt en betrouwbaar draait in een productieomgeving die voor iedereen toegankelijk is.',
+    },
+    approach: {
+      en: [
+        'I chose Streamlit as the framework because it allows Python developers to create interactive web applications with minimal frontend code. The application fetches real-time stock data and provides filtering capabilities based on key financial metrics.',
+        'After developing the application locally, I deployed it to Streamlit Cloud, making it publicly accessible. This required setting up proper dependency management, ensuring the code runs efficiently in a cloud environment, and optimizing the user experience for web browsers.',
+      ],
+      nl: [
+        'Ik koos voor Streamlit omdat dit framework Python-ontwikkelaars in staat stelt interactieve webapplicaties te maken met minimale frontend-code. De applicatie haalt realtime aandelendata op en biedt filtermogelijkheden op basis van belangrijke financiële statistieken.',
+        'Na lokale ontwikkeling heb ik de applicatie gedeployed naar Streamlit Cloud, waardoor het publiek toegankelijk werd. Dit vereiste het opzetten van goed dependency management, het optimaliseren van de code voor een cloudomgeving en het verbeteren van de gebruikerservaring voor webbrowsers.',
+      ],
+    },
+    results: {
+      en: 'The live stock screener is now fully operational and demonstrates my ability to create functional web applications using Python. This project represents an important milestone in my learning journey, showing that I can not only design digital experiences but also build the technology behind them.',
+      nl: 'De live aandelenscreener is nu volledig operationeel en toont mijn vermogen om functionele webapplicaties te bouwen met Python. Dit project is een belangrijke mijlpaal in mijn leertraject — het laat zien dat ik niet alleen digitale ervaringen kan ontwerpen, maar ook de technologie erachter kan bouwen.',
+    },
+    skillTags: ['Python', 'Streamlit', 'Data Visualization', 'Web Development', 'API Integration'],
+    iconPosition: { x: '76%', y: '37%' },
+  },
+  {
+    id: 'password-generator',
+    title: { en: 'Password Generator', nl: 'Wachtwoordgenerator' },
+    subtitle: { en: 'Modern, Secure Password Generator Built with Next.js & TypeScript', nl: 'Moderne, Veilige Wachtwoordgenerator met Next.js & TypeScript' },
+    year: '2025',
+    role: { en: 'Full-Stack Developer', nl: 'Full-Stack Ontwikkelaar' },
+    status: 'completed',
+    tags: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+    thumbnail: '/images/projects/icons/password-generator-icon.png',
+    image: '/images/projects/Header-password-generator.png',
+    liveUrl: 'https://password-generator-amber-three-36.vercel.app/',
+    liveEmbed: 'https://password-generator-amber-three-36.vercel.app/',
+    githubUrl: 'https://github.com/dinand1203/Password-Generator',
+    overview: {
+      en: 'For this project, I built a modern password generator using Next.js and TypeScript. This web app lets users quickly generate strong passwords and easily customize them — for example by changing the length or choosing which character types to include. I focused on creating an interface that looks clean and feels good to use, so generating a secure password is simple and hassle-free.',
+      nl: 'Voor dit project bouwde ik een moderne wachtwoordgenerator met Next.js en TypeScript. Deze web-app laat gebruikers snel sterke wachtwoorden genereren en eenvoudig aanpassen — zoals het wijzigen van de lengte of het kiezen welke tekentypes worden gebruikt. Ik focuste op een interface die er strak uitziet en prettig aanvoelt, zodat het genereren van een veilig wachtwoord eenvoudig en moeiteloos is.',
+    },
+    challenge: {
+      en: 'Strong passwords are essential today, but a lot of password generators feel outdated or offer limited options. My goal was to build a tool that does two things well: generate technically strong (secure) passwords, and provide a modern, smooth user experience. Not only "it works," but also "it\'s pleasant to use."',
+      nl: 'Sterke wachtwoorden zijn vandaag essentieel, maar veel wachtwoordgenerators voelen verouderd aan of bieden beperkte opties. Mijn doel was een tool te bouwen die twee dingen goed doet: technisch sterke (veilige) wachtwoorden genereren én een moderne, vloeiende gebruikerservaring bieden. Niet alleen "het werkt", maar ook "het is prettig in gebruik".',
+    },
+    approach: {
+      en: [
+        'I chose Next.js (App Router) because it\'s fast, modern, and a great fit for building a polished React-based web app. TypeScript helped me keep everything structured and reduce mistakes early. For styling, I used Tailwind CSS so I could build a responsive and consistent UI quickly.',
+        'Inside the app, I used React Hooks to manage settings and update the generated password instantly whenever the user changes an option. Users can adjust things in real time — like password length and which character sets to include — to generate a password that fits their needs.',
+        'I deployed the application on Vercel, which integrates seamlessly with Next.js. The code is maintained on GitHub with a clean structure and version control best practices.',
+      ],
+      nl: [
+        'Ik koos voor Next.js (App Router) omdat het snel en modern is en goed past bij het bouwen van een verzorgde React-webapplicatie. TypeScript hielp me alles gestructureerd te houden en vroeg fouten te vermijden. Voor de styling gebruikte ik Tailwind CSS om snel een responsieve en consistente UI te bouwen.',
+        'Binnen de app gebruikte ik React Hooks om de instellingen te beheren en het gegenereerde wachtwoord direct bij te werken wanneer de gebruiker een optie wijzigt. Gebruikers kunnen dingen in realtime aanpassen — zoals wachtwoordlengte en tekentypes — om een wachtwoord te genereren dat bij hun behoeften past.',
+        'Ik heb de applicatie gedeployed op Vercel, dat naadloos integreert met Next.js. De code wordt beheerd op GitHub met een overzichtelijke structuur en goede versiebeheergewoonten.',
+      ],
+    },
+    results: {
+      en: 'The password generator is live and fully usable on Vercel. This project shows that I can use modern web technologies to build something that\'s not only technically solid, but also well-designed and user-friendly.',
+      nl: 'De wachtwoordgenerator is live en volledig bruikbaar op Vercel. Dit project toont aan dat ik moderne webtechnologieën kan gebruiken om iets te bouwen dat niet alleen technisch solide is, maar ook goed ontworpen en gebruiksvriendelijk.',
+    },
+    skillTags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'React Hooks', 'Frontend Development', 'UI/UX Design'],
+    iconPosition: { x: '5%', y: '66%' },
+  },
+  {
+    id: 'thermal-ai',
+    title: { en: 'Thermal AI', nl: 'Thermal AI' },
+    subtitle: { en: 'Graduation Project: Making AI\'s Environmental Impact Tangible', nl: 'Afstudeerproject: AI\'s Milieu-impact Tastbaar Maken' },
+    year: '2025',
+    period: { en: 'January 2025 – September 2025', nl: 'Januari 2025 – September 2025' },
+    role: { en: 'Designer, Developer & Researcher', nl: 'Ontwerper, Ontwikkelaar & Onderzoeker' },
+    status: 'completed',
+    tags: ['JavaScript', 'Node.js', 'React', 'Arduino'],
+    thumbnail: '/images/projects/icons/thermal-ai-icon.png',
+    image: '/images/projects/Header-thermalai.png',
+    galleryImages: [
+      { src: '/images/projects/Mockup termal-ai 3.png', alt: 'Thermal AI Prototype' },
+      { src: '/images/projects/Mockup thermal-ai.png', alt: 'Thermal AI Interface' },
+    ],
+    pdfUrl: '/images/projects/exploratie-herkansing-dinand-dap.pdf',
+    pdfLabel: { en: 'Graduation Thesis (PDF)', nl: 'Afstudeerthesis (PDF)' },
+    researchQuestion: {
+      en: '"How can an embodied experience be designed to raise awareness among users of AI applications (aged 20–30) about the negative environmental impact, with the aim of encouraging meaningful reflection on their own AI usage?"',
+      nl: '"Hoe kan een belichaamd ervaringsontwerp worden ingezet om bewustzijn te creëren bij gebruikers van AI-applicaties (20–30 jaar) over de negatieve milieu-impact, met als doel zinvolle reflectie op eigen AI-gebruik te stimuleren?"',
+    },
+    overview: {
+      en: 'Artificial Intelligence often feels like magic: effortless and invisible. But behind every prompt and every generated image lies a growing ecological cost in energy and water. This project, Thermal AI, dives beneath the surface of our digital tools. It explores how we can translate the abstract environmental impact of AI into a direct, physical experience in order to stimulate deeper awareness and reflection.',
+      nl: 'Kunstmatige intelligentie voelt vaak als magie: moeiteloos en onzichtbaar. Maar achter elke prompt en elk gegenereerd beeld schuilt een groeiende ecologische kost in energie en water. Dit project, Thermal AI, duikt onder het oppervlak van onze digitale tools. Het onderzoekt hoe we de abstracte milieu-impact van AI kunnen vertalen naar een directe, fysieke ervaring om dieper bewustzijn en reflectie te stimuleren.',
+    },
+    challenge: {
+      en: 'The ecological footprint of AI — from training models to executing a simple prompt — is completely invisible. A single question to ChatGPT can consume up to 100 times more energy than a normal Google search. The core problem is that these abstract costs prevent any real awareness, especially in young adults (20–30) who use AI daily but have no idea of the concrete environmental consequences.',
+      nl: 'De ecologische voetafdruk van AI — van het trainen van modellen tot het uitvoeren van een simpele prompt — is volledig onzichtbaar. Een enkele vraag aan ChatGPT kan tot 100 keer meer energie verbruiken dan een normale Google-zoekopdracht. Het kernprobleem is dat deze abstracte kosten elk echt bewustzijn in de weg staan, vooral bij jonge volwassenen (20–30) die AI dagelijks gebruiken maar geen idee hebben van de concrete milieugevolgen.',
+    },
+    approach: {
+      en: [
+        'The design solution is a thermal mousepad prototype that increases in temperature as AI use intensifies. When a user performs a task, they literally feel the energy impact of their digital action as warmth on their forearm. A complex task — like generating an image — results in a fast and intense rise in temperature, while a simple question causes a more subtle warmth.',
+        'Through this direct physical connection, the user becomes intuitively — and confrontationally — aware of the energy their digital actions consume. Thermal AI is not just a technological tool, but also an instrument for reflection.',
+      ],
+      nl: [
+        'De ontwerpoplossing is een thermisch muismat prototype dat in temperatuur stijgt naarmate het AI-gebruik intensiever wordt. Wanneer een gebruiker een taak uitvoert, voelt hij letterlijk de energie-impact van zijn digitale actie als warmte op zijn onderarm. Een complexe taak — zoals het genereren van een afbeelding — resulteert in een snelle en intense temperatuurstijging, terwijl een eenvoudige vraag een subtielere warmte veroorzaakt.',
+        'Door deze directe fysieke verbinding wordt de gebruiker intuïtief — en confronterend — bewust van de energie die zijn digitale acties verbruiken. Thermal AI is niet alleen een technologisch instrument, maar ook een middel tot reflectie.',
+      ],
+    },
+    results: {
+      en: 'The prototype was tested with users in the target group (20–30 years old). Physical feedback dramatically increased perceived awareness of AI\'s environmental cost — validating the core hypothesis that embodied experience can bridge the gap between abstract data and meaningful reflection.',
+      nl: 'Het prototype werd getest met gebruikers uit de doelgroep (20–30 jaar). Fysieke feedback verhoogde het bewustzijn over de milieu-impact van AI aanzienlijk — wat de kernhypothese bevestigde dat een belichaamde ervaring de kloof tussen abstracte data en zinvolle reflectie kan overbruggen.',
+    },
+    skillTags: ['JavaScript', 'Node.js', 'React', 'TypeScript', 'Arduino', 'Replit', 'Hardware Prototyping', 'User Research', 'Interaction Design', 'Embodied Experience'],
+    iconPosition: { x: '79%', y: '57%' },
+  },
+  {
+    id: 'internship-vunzige-deuntjes',
+    title: { en: 'Internship Vunzige Deuntjes', nl: 'Stage Vunzige Deuntjes' },
+    subtitle: { en: 'Videographer & Editor for Urban Music Festival Brand', nl: 'Videograaf & Editor voor Urban Music Festivalmerk' },
+    year: '2023',
+    period: { en: 'September 2023 – January 2024', nl: 'September 2023 – Januari 2024' },
+    role: { en: 'Videographer & Editor', nl: 'Videograaf & Editor' },
+    status: 'completed',
+    tags: ['Video Editing', 'Motion Graphics', 'Social Media Content'],
+    thumbnail: '/images/projects/icons/icon-vunzige-deuntjes.png',
+    image: '/images/projects/Main picture vunzige deuntjes.png',
+    galleryVideos: [
+      { src: '/images/projects/Ticketadd vunzige deuntjes 1.mp4', poster: '/images/projects/poster ticketadd vunzige deuntjes 1.png', vertical: true },
+      { src: '/images/projects/Ticketadd vunzige deuntjes 2.mp4', poster: '/images/projects/poster ticketadd vunzige deuntjes 2.png', vertical: true },
+    ],
+    pdfUrl: '/images/projects/Stageverslag Vunzige Deuntjes def.pdf',
+    pdfLabel: { en: 'Internship Report (PDF)', nl: 'Stageverslag (PDF)' },
+    overview: {
+      en: 'Vunzige Deuntjes is an urban music and festival brand known for its hiphop, R&B and dancehall events in the Netherlands and Belgium. They organize over 100 events a year and host the Vunzige Deuntjes Festival in the Amsterdamse Bos, attracting tens of thousands of visitors. During my internship I worked as a videographer and video editor, creating content for social media and event promotion.',
+      nl: 'Vunzige Deuntjes is een urban music- en festivalmerk bekend om zijn hiphop-, R&B- en dancehall-evenementen in Nederland en België. Tijdens mijn stage werkte ik als videograaf en video-editor voor social media en evenementenpromotie.',
+    },
+    challenge: {
+      en: 'The main goal was to strengthen the online visibility of Vunzige Deuntjes through consistent, high-quality video content. The challenge was to translate the energy of the events into short, engaging videos that work well on social media, fit the brand identity and help attract both new visitors and returning fans.',
+      nl: 'Het hoofddoel was de online zichtbaarheid van Vunzige Deuntjes te versterken. De uitdaging: de energie van de evenementen vertalen naar korte, boeiende video\'s die passen bij de merkidentiteit.',
+    },
+    approach: {
+      en: [
+        'I started by getting to know the brand identity and existing content style: the type of shots, pacing, colors and typography they use. During events, I focused on capturing crowd moments, artists, stage visuals and small details that tell the story of the night.',
+        'After each event, I selected the strongest footage, created an edit in Premiere Pro and added titles, overlays and subtle motion graphics in After Effects. I experimented with different formats (reels, stories, horizontal edits) so the content could be used across multiple platforms.',
+      ],
+      nl: [
+        'Ik leerde eerst de merkidentiteit en bestaande contentstijl kennen. Tijdens evenementen richtte ik me op het vastleggen van crowd-momenten, artiesten en kleine details.',
+        'Na elk evenement selecteerde ik het sterkste materiaal, maakte een edit in Premiere Pro en voegde titels en motion graphics toe in After Effects.',
+      ],
+    },
+    results: {
+      en: 'The internship resulted in a series of finished video assets used on the Vunzige Deuntjes social media channels. Several of the videos continued to be used after my internship as part of ongoing promotion, which shows that the material fit both the brand and long-term communication needs.',
+      nl: 'De stage resulteerde in een reeks afgewerkte videoassets. Verschillende video\'s werden ook na mijn stage gebruikt als onderdeel van lopende promotie.',
+    },
+    skillTags: ['Adobe Premiere Pro', 'Adobe After Effects', 'Blender', 'Motion Graphics', 'Videography', 'Social Media Content'],
+    iconPosition: { x: '11%', y: '76%' },
+  },
+  {
+    id: 'marketing-content-package',
+    title: { en: 'Marketing Content Package', nl: 'Marketing Contentpakket' },
+    subtitle: { en: 'Social Media Content for Football Club', nl: 'Social Media Content voor Voetbalclub' },
+    year: '2023',
+    role: { en: 'Designer & Developer', nl: 'Ontwerper & Ontwikkelaar' },
+    status: 'completed',
+    tags: ['3D Modelling', 'Animation', 'Design'],
+    thumbnail: '/images/projects/icons/Thb-jersey-desktopicon.svg',
+    image: '/images/projects/Header-marketing-package.png',
+    galleryImages: [
+      { src: '/images/projects/Main picture marketing-content-package.png', alt: 'Marketing Content Package Main Visual' },
+      { src: '/images/projects/THB Jersey marketing-content-package.png', alt: '3D Jersey Model' },
+      { src: '/images/projects/Editing marketing-content-package.png', alt: 'Man of the Match Example' },
+    ],
+    galleryVideos: [
+      { src: '/images/projects/THB VID Jersey marketing-content-package.MP4', poster: '/images/projects/Poster vid thb jersey.png', vertical: true },
+    ],
+    overview: {
+      en: 'This marketing content package was created for the social media channels of my football club. I\'ve been playing football my whole life since I was six years old, and in 2020 I made my debut for the first team. As the club became more interested in increasing online reach, a content package based on the players\' shirts to present line-ups and man of the match announcements seemed like a fantastic idea.',
+      nl: 'Dit marketing contentpakket werd gemaakt voor de social media kanalen van mijn voetbalclub. Als speler van de eerste ploeg wilde ik de online aanwezigheid van de club versterken met 3D geanimeerde shirts voor opstellingen en wedstrijdaankondigingen.',
+    },
+    challenge: {
+      en: 'The challenge was to increase visibility on social media platforms with the aim of attracting new members and keeping existing members up to date with the weekly line-ups and man of the match announcements. This way, we also maintain interaction with the supporters.',
+      nl: 'De uitdaging was de zichtbaarheid op social media te vergroten om nieuwe leden aan te trekken en bestaande leden op de hoogte te houden van wekelijkse opstellingen en man van de match-aankondigingen.',
+    },
+    approach: {
+      en: [
+        'First, I had to create the 3D model of the football shirt. Once that was done, I used UV maps to apply the corresponding designs to the shirts. I then created the right composition and lighting and rendered a 10-second animation.',
+        'After that, I imported these clips into After Effects to add the final touches — titles, player names, overlays — and then they were ready to be shared on Instagram.',
+      ],
+      nl: [
+        'Eerst het 3D-model van het voetbalshirt gemaakt. Daarna UV-maps gebruikt om de ontwerpen op de shirts te plaatsen. Vervolgens de juiste compositie en verlichting gecreëerd en een animatie van 10 seconden gerenderd.',
+        'De clips werden daarna in After Effects geïmporteerd voor de laatste details en klaar gemaakt voor Instagram.',
+      ],
+    },
+    results: {
+      en: 'The results turned out very well, and the visuals are still being used today. The content gave followers a clear impression of the team and helped attract new members to the club.',
+      nl: 'De resultaten waren uitstekend en de visuals worden vandaag de dag nog steeds gebruikt. De content gaf volgers een duidelijk beeld van het team.',
+    },
+    skillTags: ['Blender', '3D Modeling', 'UV Mapping', 'Animation', 'Adobe Photoshop', 'Adobe Illustrator', 'Adobe After Effects', 'Social Media Content'],
+    iconPosition: { x: '71%', y: '73%' },
+  },
+  {
+    id: 'beverage-campaign',
+    title: { en: 'Beverage Campaign', nl: 'Drankcampagne' },
+    subtitle: { en: '3D Product Visualization & Campaign Design', nl: '3D Productvisualisatie & Campagneontwerp' },
+    year: '2022',
+    role: { en: '3D Artist & Designer', nl: '3D Artiest & Ontwerper' },
+    status: 'completed',
+    tags: ['3D Modelling', 'Blender', 'Photoshop'],
+    thumbnail: '/images/projects/icons/campaign-beverage-desktopicon.svg',
+    image: '/images/projects/Header-beverage-campaign.png',
+    galleryImages: [
+      { src: '/images/projects/uv_label_beverage_campaign.jpg', alt: 'UV Label Design and Mapping', caption: { en: 'UV label design and mapping for the beverage can', nl: 'UV-labelontwerp en -mapping voor het drankblik' } },
+    ],
+    overview: {
+      en: 'This project involved creating a photorealistic 3D product visualization for a beverage marketing campaign. The goal was to produce eye-catching promotional materials that could be used across digital and print media. The main focus was to dive deep into 3D software, experimenting with lighting, materials, and composition to achieve a level of realism that could rival — or even surpass — traditional product photography.',
+      nl: 'Een fotorealistische 3D productvisualisatie voor een drankmarketingcampagne. Het doel was promotioneel materiaal te produceren voor digitale en print media, door te experimenteren met verlichting, materialen en compositie.',
+    },
+    challenge: {
+      en: 'The intention was to explore different visual options for marketing goals while keeping the outcome professional and clean. To achieve this, I chose to teach myself 3D software using Blender, so I could create high-quality product visuals independently, without having to rely on production teams for photography or other traditional marketing assets.',
+      nl: 'Het doel was verschillende visuele opties te verkennen voor marketingdoeleinden. Ik koos ervoor om 3D-software zelfstandig te leren via Blender om hoogwaardige productvisuals te maken zonder afhankelijk te zijn van productieteams.',
+    },
+    approach: {
+      en: [
+        'Before I even opened any 3D software, I first had to design the beverage itself. Once the label design was finished, I created a precise UV map so Blender could correctly wrap the label around the 3D model of the can. This step took the most time, because every small tweak could shift the label and it had to sit perfectly on the surface.',
+        'After that, I used Blender to model and render the beverage bottle with a strong focus on realism: a realistic glass shader with proper refraction and transparency, a three-point lighting setup to highlight the product, and careful scene composition. Finally, I enhanced the colors and contrast in Photoshop to prepare the visual for professional marketing use.',
+      ],
+      nl: [
+        'Eerst het dranklabelontwerp gemaakt en een nauwkeurige UV-map gecreëerd voor de 3D-wrap. Dit kostte de meeste tijd omdat elke kleine aanpassing het label kon verschuiven.',
+        'Daarna het model gerenderd in Blender met een realistisch glasshader, een driepuntsverlichtingsopstelling en zorgvuldige scènecompositie. Afgewerkt in Photoshop.',
+      ],
+    },
+    results: {
+      en: 'The final render successfully captured the product\'s premium quality and refreshing appeal. The visual was used across multiple marketing channels and helped establish a cohesive brand identity for the campaign.',
+      nl: 'De uiteindelijke render verbeeldde succesvol de premium kwaliteit van het product. De visual werd gebruikt op meerdere marketingkanalen.',
+    },
+    skillTags: ['Blender', '3D Modeling', 'Product Visualization', 'Adobe Photoshop', 'UV Mapping', 'Lighting & Rendering'],
+    iconPosition: { x: '43%', y: '82%' },
+  },
+]
+
+export const aboutData = {
+  name: 'Dinand Dap',
+  position: { en: 'Communication & Multimedia Designer', nl: 'Communicatie & Multimedia Ontwerper' },
+  email: 'dinand@dap-group.com',
+  university: { en: 'Avans University of Applied Sciences, Breda', nl: 'Avans Hogeschool, Breda' },
+  avatar: '/images/projects/icons/aboutme-desktopicon.svg',
+  certificates: [
+    {
+      name: { en: 'Bachelor Communication & Multimedia Design', nl: 'Bachelor Communicatie & Multimedia Design' },
+      issuer: 'Avans Hogeschool',
+      date: { en: 'Sep. 2025', nl: 'Sep. 2025' },
+      skills: ['Adobe Creative Suite', 'Multimedia Design'],
+    },
+    {
+      name: 'CS50P Introduction to Programming with Python',
+      issuer: 'CS50',
+      date: { en: 'Feb. 2026', nl: 'Feb. 2026' },
+      skills: ['Python'],
+      url: 'https://certificates.cs50.io/54d51bb4-26c3-4cf3-8e17-8eb279f0329b',
+    },
+  ],
+  bio: {
+    en: [
+      "I'm a multimedia designer and developer who recently graduated from Avans University of Applied Sciences in Breda. I love combining creative thinking with technology, so an idea doesn't just look good — it actually works well too.",
+      "In my work, I focus on the full picture: from concept and visual design to interaction and implementation. I enjoy refining details like animations, micro-interactions, and user flow, because those small touches often make an experience feel complete.",
+      "Alongside design, I'm actively growing my development skills — constantly learning more about web development and building interactive digital experiences. Each project is a chance to try something new, improve my skills, and create digital experiences that are not only functional, but also memorable.",
+    ],
+    nl: [
+      "Ik ben een multimedia designer en developer die onlangs is afgestudeerd aan Avans Hogeschool in Breda. Ik combineer graag creatief denken met technologie, zodat een idee er niet alleen goed uitziet, maar ook goed werkt.",
+      "In mijn werk focus ik op het volledige plaatje: van concept en visueel ontwerp tot interactie en implementatie. Ik ben dol op het verfijnen van details zoals animaties, micro-interacties en gebruikersflow.",
+      "Naast design ontwikkel ik actief mijn programmeervaardigheden. Elk project is een kans om iets nieuws te proberen en digitale ervaringen te creëren die niet alleen functioneel, maar ook gedenkwaardig zijn.",
+    ],
+  },
+}
+
+export const skillsData = {
+  en: [
+    { category: 'Design', icon: '✦', skills: ['UI/UX Design', 'Adobe Creative Suite', 'Figma', 'Prototyping', 'Brand Identity'] },
+    { category: 'Multimedia', icon: '◈', skills: ['Video Editing', 'Motion Graphics', '3D Modeling', 'Blender', 'After Effects'] },
+    { category: 'Development', icon: '⌥', skills: ['HTML / CSS / JavaScript', 'React / Next.js', 'Python', 'Arduino', 'TypeScript'] },
+  ],
+  nl: [
+    { category: 'Design', icon: '✦', skills: ['UI/UX Ontwerp', 'Adobe Creative Suite', 'Figma', 'Prototyping', 'Merkidentiteit'] },
+    { category: 'Multimedia', icon: '◈', skills: ['Videobewerking', 'Motion Graphics', '3D Modellering', 'Blender', 'After Effects'] },
+    { category: 'Development', icon: '⌥', skills: ['HTML / CSS / JavaScript', 'React / Next.js', 'Python', 'Arduino', 'TypeScript'] },
+  ],
+}

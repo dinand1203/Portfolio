@@ -1,0 +1,108 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  /* Liquid Glass */
+  --glass-bg: rgba(255, 255, 255, 0.14);
+  --glass-bg-heavy: rgba(255, 255, 255, 0.82);
+  --glass-border: rgba(255, 255, 255, 0.32);
+  --glass-blur: blur(48px) saturate(1.8) brightness(1.08);
+  --glass-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.55),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.04),
+    0 0 0 0.5px rgba(255, 255, 255, 0.18),
+    0 24px 64px rgba(0, 0, 0, 0.38),
+    0 8px 24px rgba(0, 0, 0, 0.22);
+
+  /* Traffic lights */
+  --tl-close: #FF5F57;
+  --tl-minimize: #FEBC2E;
+  --tl-maximize: #28C840;
+
+  /* Text */
+  --text-primary: #1a1a1a;
+  --text-secondary: #555;
+  --text-tertiary: #888;
+
+  /* Accent */
+  --accent: #0071e3;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: var(--font);
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+/* Scrollbar styling for window content */
+.window-scroll::-webkit-scrollbar {
+  width: 5px;
+}
+.window-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.window-scroll::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+/* ──────────────────────────────────────────────
+   Liquid Glass utility
+   ────────────────────────────────────────────── */
+.glass {
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+}
+
+/* Specular / prism overlay — gives the "liquid" shimmer */
+.glass::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.18) 0%,
+    rgba(255, 255, 255, 0.06) 28%,
+    transparent 52%,
+    rgba(200, 215, 255, 0.07) 72%,
+    rgba(255, 205, 255, 0.09) 100%
+  );
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Top-edge specular highlight */
+.glass::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 10%;
+  right: 10%;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.7) 30%,
+    rgba(255, 255, 255, 0.9) 50%,
+    rgba(255, 255, 255, 0.7) 70%,
+    transparent
+  );
+  pointer-events: none;
+  z-index: 1;
+}
