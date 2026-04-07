@@ -52,7 +52,7 @@ export const projects = [
       nl: 'TripPilot AI is in actieve ontwikkeling. AI-generatie, budgettracking en authenticatie werken volledig. Momenteel wordt de publieke ontdekkingsfeed verfijnd.',
     },
     skillTags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'shadcn/ui', 'Google Gemini AI', 'Supabase', 'AI Integration', 'Full-Stack Development', 'API Design'],
-    iconPosition: { x: '7%', y: '16%' },
+    iconPosition: { x: '46.9%', y: '11.8%' },
   },
   {
     id: 'trading-dashboard',
@@ -110,7 +110,7 @@ export const projects = [
       { layer: 'Deployment', tech: 'Docker, docker-compose, Gunicorn, WhiteNoise' },
     ],
     skillTags: ['Python', 'Django', 'pandas', 'NumPy', 'Plotly.js', 'SQLite', 'Docker', 'Data Analysis', 'Full-Stack Development', 'Data Visualization'],
-    iconPosition: { x: '74%', y: '12%' },
+    iconPosition: { x: '44.6%', y: '75.5%' },
   },
   {
     id: 'csv-order-generator',
@@ -156,7 +156,7 @@ export const projects = [
       ],
     },
     skillTags: ['Python', 'CLI Development', 'File I/O', 'Input Validation'],
-    iconPosition: { x: '6%', y: '44%' },
+    iconPosition: { x: '30.8%', y: '41%' },
   },
   {
     id: 'live-stock-screener',
@@ -193,7 +193,7 @@ export const projects = [
       nl: 'De live aandelenscreener is nu volledig operationeel en toont mijn vermogen om functionele webapplicaties te bouwen met Python. Dit project is een belangrijke mijlpaal in mijn leertraject — het laat zien dat ik niet alleen digitale ervaringen kan ontwerpen, maar ook de technologie erachter kan bouwen.',
     },
     skillTags: ['Python', 'Streamlit', 'Data Visualization', 'Web Development', 'API Integration'],
-    iconPosition: { x: '76%', y: '37%' },
+    iconPosition: { x: '75.7%', y: '8.2%' },
   },
   {
     id: 'password-generator',
@@ -233,7 +233,7 @@ export const projects = [
       nl: 'De wachtwoordgenerator is live en volledig bruikbaar op Vercel. Dit project toont aan dat ik moderne webtechnologieën kan gebruiken om iets te bouwen dat niet alleen technisch solide is, maar ook goed ontworpen en gebruiksvriendelijk.',
     },
     skillTags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'React Hooks', 'Frontend Development', 'UI/UX Design'],
-    iconPosition: { x: '5%', y: '66%' },
+    iconPosition: { x: '16%', y: '56.1%' },
   },
   {
     id: 'thermal-ai',
@@ -279,7 +279,7 @@ export const projects = [
       nl: 'Het prototype werd getest met gebruikers uit de doelgroep (20–30 jaar). Fysieke feedback verhoogde het bewustzijn over de milieu-impact van AI aanzienlijk — wat de kernhypothese bevestigde dat een belichaamde ervaring de kloof tussen abstracte data en zinvolle reflectie kan overbruggen.',
     },
     skillTags: ['JavaScript', 'Node.js', 'React', 'TypeScript', 'Arduino', 'Replit', 'Hardware Prototyping', 'User Research', 'Interaction Design', 'Embodied Experience'],
-    iconPosition: { x: '79%', y: '57%' },
+    iconPosition: { x: '82.5%', y: '38.4%' },
   },
   {
     id: 'internship-vunzige-deuntjes',
@@ -321,7 +321,7 @@ export const projects = [
       nl: 'De stage resulteerde in een reeks afgewerkte videoassets. Verschillende video\'s werden ook na mijn stage gebruikt als onderdeel van lopende promotie.',
     },
     skillTags: ['Adobe Premiere Pro', 'Adobe After Effects', 'Blender', 'Motion Graphics', 'Videography', 'Social Media Content'],
-    iconPosition: { x: '11%', y: '76%' },
+    iconPosition: { x: '24.5%', y: '10.8%' },
   },
   {
     id: 'marketing-content-package',
@@ -364,7 +364,7 @@ export const projects = [
       nl: 'De resultaten waren uitstekend en de visuals worden vandaag de dag nog steeds gebruikt. De content gaf volgers een duidelijk beeld van het team.',
     },
     skillTags: ['Blender', '3D Modeling', 'UV Mapping', 'Animation', 'Adobe Photoshop', 'Adobe Illustrator', 'Adobe After Effects', 'Social Media Content'],
-    iconPosition: { x: '71%', y: '73%' },
+    iconPosition: { x: '76%', y: '64.1%' },
   },
   {
     id: 'beverage-campaign',
@@ -402,7 +402,7 @@ export const projects = [
       nl: 'De uiteindelijke render verbeeldde succesvol de premium kwaliteit van het product. De visual werd gebruikt op meerdere marketingkanalen.',
     },
     skillTags: ['Blender', '3D Modeling', 'Product Visualization', 'Adobe Photoshop', 'UV Mapping', 'Lighting & Rendering'],
-    iconPosition: { x: '43%', y: '82%' },
+    iconPosition: { x: '10%', y: '28.4%' },
   },
 ]
 
