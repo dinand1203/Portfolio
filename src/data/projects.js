@@ -10,8 +10,8 @@ export const projects = [
     thumbnail: '/images/projects/icons/trippilotai-icon.png',
     image: '/images/projects/trippilot-ai-thumbnail.png',
     overview: {
-      en: 'TripPilot AI is a full-stack web application that takes the stress out of travel planning. Instead of spending hours searching across multiple websites, users simply describe their ideal trip and let Google Gemini AI generate a complete, personalized itinerary — including activities, hotels, and restaurant recommendations — in seconds. From there, every detail can be tweaked, reordered, and saved to a personal account.',
-      nl: 'TripPilot AI is een full-stack webapplicatie die het reisplannen eenvoudig maakt. In plaats van uren te zoeken op meerdere websites beschrijven gebruikers gewoon hun ideale reis, waarna Google Gemini AI in seconden een volledig, gepersonaliseerd reisschema genereert — inclusief activiteiten, hotels en restaurantaanbevelingen. Elk detail kan daarna aangepast, hergeordend en opgeslagen worden in een persoonlijk account.',
+      en: 'TripPilot AI is a full-stack web application that takes the stress out of travel planning. Instead of spending hours searching across multiple websites, users simply describe their ideal trip and let Google Gemini AI generate a complete, personalized itinerary with activities, hotels, and restaurant recommendations in seconds. From there, every detail can be tweaked, reordered, and saved to a personal account.',
+      nl: 'TripPilot AI is een full-stack webapplicatie die het reisplannen eenvoudig maakt. In plaats van uren te zoeken op meerdere websites beschrijven gebruikers gewoon hun ideale reis, waarna Google Gemini AI in seconden een volledig gepersonaliseerd reisschema genereert met activiteiten, hotels en restaurantaanbevelingen. Elk detail kan daarna aangepast, hergeordend en opgeslagen worden in een persoonlijk account.',
     },
     features: {
       en: [
@@ -37,14 +37,14 @@ export const projects = [
     },
     approach: {
       en: [
-        'Built with Next.js and TypeScript as the foundation — chosen for their speed, type-safety, and excellent developer experience. For the UI, I combined Tailwind CSS with shadcn/ui to create a consistent, polished interface that works seamlessly across all screen sizes.',
+        'Built with Next.js and TypeScript as the foundation, chosen for their speed, type-safety, and excellent developer experience. For the UI, I combined Tailwind CSS with shadcn/ui to create a consistent, polished interface that works seamlessly across all screen sizes.',
         'The AI backbone is Google Gemini, which I integrated via API to generate rich, structured travel itineraries from natural-language prompts. On the backend, I used Supabase for both authentication and the database, giving me real-time data capabilities and a secure auth system out of the box.',
-        'One of the more challenging aspects was building the drag-and-drop interface for reordering itinerary items. Getting the interactions to feel natural and handling optimistic UI updates — so the app responds instantly without waiting for server confirmation — required careful state management throughout the application.',
+        'One of the more challenging aspects was building the drag-and-drop interface for reordering itinerary items. Getting the interactions to feel natural and handling optimistic UI updates, so the app responds instantly without waiting for server confirmation, required careful state management throughout the application.',
       ],
       nl: [
-        'Gebouwd met Next.js en TypeScript als basis — gekozen vanwege snelheid, type-veiligheid en een prettige developer experience. Voor de UI combineerde ik Tailwind CSS met shadcn/ui om een consistente, verzorgde interface te maken die naadloos werkt op alle schermformaten.',
+        'Gebouwd met Next.js en TypeScript als basis, gekozen vanwege snelheid, type-veiligheid en een prettige developer experience. Voor de UI combineerde ik Tailwind CSS met shadcn/ui om een consistente, verzorgde interface te maken die naadloos werkt op alle schermformaten.',
         'De AI-kern is Google Gemini, geïntegreerd via API om rijke, gestructureerde reisschema\'s te genereren vanuit gewone taal. Voor de backend gebruikte ik Supabase voor zowel authenticatie als de database, wat mij realtime data-mogelijkheden en een veilig auth-systeem gaf.',
-        'Een van de uitdagendere aspecten was het bouwen van de drag-and-drop interface voor het herordenen van reisitems. Om de interacties natuurlijk te laten aanvoelen en optimistische UI-updates correct te verwerken — zodat de app direct reageert zonder op serverbevestiging te wachten — was zorgvuldig state management vereist.',
+        'Een van de uitdagendere aspecten was het bouwen van de drag-and-drop interface voor het herordenen van reisitems. Om de interacties natuurlijk te laten aanvoelen en optimistische UI-updates goed te verwerken, zodat de app direct reageert zonder op serverbevestiging te wachten, was zorgvuldig state management door de hele applicatie vereist.',
       ],
     },
     currentStatus: {
@@ -65,8 +65,8 @@ export const projects = [
     thumbnail: '/images/projects/icons/trading-dashboard-icon.png',
     image: '/images/projects/thumbnail-trading-dashboard.png',
     overview: {
-      en: 'Trading Dashboard is a self-hosted Django web application for tracking and analysing personal trading performance. Built with Django, it lets traders import broker CSV exports, review validated data, and explore their performance through interactive charts and statistics — all behind a private login.',
-      nl: 'Trading Dashboard is een zelfgehoste Django-webapplicatie voor het bijhouden en analyseren van persoonlijke handelsprestaties. Het stelt handelaars in staat om broker CSV-exports te importeren, gevalideerde data te bekijken en prestaties te verkennen via interactieve grafieken en statistieken — alles achter een privé-login.',
+      en: 'Trading Dashboard is a self-hosted Django web application for tracking and analysing personal trading performance. Built with Django, it lets traders import broker CSV exports, review validated data, and explore their performance through interactive charts and statistics, all behind a private login.',
+      nl: 'Trading Dashboard is een zelfgehoste Django-webapplicatie voor het bijhouden en analyseren van persoonlijke handelsprestaties. Het stelt handelaars in staat om broker CSV-exports te importeren, gevalideerde data te bekijken en prestaties te verkennen via interactieve grafieken en statistieken, alles achter een privé-login.',
     },
     features: {
       en: [
@@ -92,13 +92,13 @@ export const projects = [
     approach: {
       en: [
         'The analytics logic lives in a standalone analytics.py module that takes a plain DataFrame and returns dicts and DataFrames. This keeps every computation independently testable without a running Django server, and makes it easy to add or tweak metrics without touching the view layer.',
-        'The CSV import uses a two-step flow — validated data is stashed in the session between the preview and confirm steps, so users can review flagged rows before anything is written to the database. This prevents bad data from entering the system while still giving the user control to override individual rows.',
-        'Chart data is built server-side in Python and serialised to JSON in the template context, keeping chart logic in the same layer as the rest of the data processing. SQLite is the right choice here — sufficient for a single-user self-hosted tool, with Docker volume mounting the database file so data persists across container restarts.',
+        'The CSV import uses a two-step flow: validated data is stashed in the session between the preview and confirm steps, so users can review flagged rows before anything is written to the database. This prevents bad data from entering the system while still giving the user control to override individual rows.',
+        'Chart data is built server-side in Python and serialised to JSON in the template context, keeping chart logic in the same layer as the rest of the data processing. SQLite is the right choice here: sufficient for a single-user self-hosted tool, with Docker volume mounting the database file so data persists across container restarts.',
       ],
       nl: [
         'De analytische logica staat in een standalone analytics.py module die een gewone DataFrame verwerkt en dicts en DataFrames teruggeeft. Dit houdt alle berekeningen onafhankelijk testbaar zonder een draaiende Django-server, en maakt het eenvoudig om statistieken toe te voegen zonder de view-laag aan te raken.',
-        'De CSV-import gebruikt een twee-staps-flow — gevalideerde data wordt in de sessie opgeslagen tussen de preview- en bevestigingsstap, zodat gebruikers gemarkeerde rijen kunnen controleren voordat er iets naar de database wordt geschreven. Dit voorkomt slechte data in het systeem, maar geeft de gebruiker toch controle om individuele rijen te overschrijven.',
-        'Grafiekdata wordt server-side in Python gebouwd en als JSON in de templatecontext geserialiseerd. SQLite is hier de juiste keuze — voldoende voor een single-user zelfgehost tool, waarbij het Docker-volume het databasebestand direct koppelt zodat data blijft bestaan na container-herstarts.',
+        'De CSV-import gebruikt een twee-staps-flow: gevalideerde data wordt in de sessie opgeslagen tussen de preview- en bevestigingsstap, zodat gebruikers gemarkeerde rijen kunnen controleren voordat er iets naar de database wordt geschreven. Dit voorkomt slechte data in het systeem, maar geeft de gebruiker toch controle om individuele rijen te overschrijven.',
+        'Grafiekdata wordt server-side in Python gebouwd en als JSON in de templatecontext geserialiseerd. SQLite is hier de juiste keuze: voldoende voor een single-user zelfgehost tool, waarbij het Docker-volume het databasebestand direct koppelt zodat data blijft bestaan na container-herstarts.',
       ],
     },
     techStack: [
@@ -124,8 +124,8 @@ export const projects = [
     image: '/images/projects/csv-order-generator-thumbnail.png',
     youtubeEmbed: 'https://www.youtube.com/embed/RgRzjliAAts',
     overview: {
-      en: 'CSV Order Generator is a command-line Python tool that turns any CSV pricelist into a fully functional order system. You load a menu, pick your items from a clean ASCII table displayed in the terminal, and the tool writes a complete order to an output CSV — including item names, IDs, and prices. No GUI, no dependencies beyond Python\'s standard library, and no assumptions about your column names.',
-      nl: 'CSV Order Generator is een command-line Python tool die elke CSV-prijslijst omzet in een volledig functioneel bestelsysteem. Je laadt een menu, kiest items uit een overzichtelijke ASCII-tabel in de terminal en de tool schrijft een volledige bestelling naar een output CSV — inclusief itemnamen, ID\'s en prijzen. Geen GUI, geen externe afhankelijkheden, en geen aannames over kolomnamen.',
+      en: 'CSV Order Generator is a command-line Python tool that turns any CSV pricelist into a fully functional order system. You load a menu, pick your items from a clean ASCII table displayed in the terminal, and the tool writes a complete order to an output CSV with item names, IDs, and prices. No GUI, no dependencies beyond Python\'s standard library, and no assumptions about your column names.',
+      nl: 'CSV Order Generator is een command-line Python tool die elke CSV-prijslijst omzet in een volledig functioneel bestelsysteem. Je laadt een menu, kiest items uit een overzichtelijke ASCII-tabel in de terminal en de tool schrijft een volledige bestelling naar een output CSV met itemnamen, ID\'s en prijzen. Geen GUI, geen externe afhankelijkheden, en geen aannames over kolomnamen.',
     },
     features: {
       en: [
@@ -147,12 +147,12 @@ export const projects = [
     },
     approach: {
       en: [
-        'I built this tool to be completely flexible — it doesn\'t hardcode any column names, so it can work with any CSV pricelist out of the box. The user specifies the relevant columns at startup, and the tool validates everything before proceeding. This makes it reusable across very different use cases, from restaurant menus to product catalogs.',
-        'Robust input validation was a key focus throughout. Every user interaction — entering a filename, selecting column names, or ordering items — is validated and loops until valid input is provided. The append logic for order.csv was also carefully handled to avoid writing duplicate headers when the file already exists.',
+        'I built this tool to be completely flexible: it doesn\'t hardcode any column names, so it can work with any CSV pricelist out of the box. The user specifies the relevant columns at startup, and the tool validates everything before proceeding. This makes it reusable across very different use cases, from restaurant menus to product catalogs.',
+        'Robust input validation was a key focus throughout. Every user interaction is validated and loops until valid input is provided, whether that\'s entering a filename, selecting column names, or ordering items. The append logic for order.csv was also carefully handled to avoid writing duplicate headers when the file already exists.',
       ],
       nl: [
-        'Ik heb dit tool volledig flexibel gebouwd — er worden geen kolomnamen hardgecodeerd, zodat het direct werkt met elke CSV-prijslijst. De gebruiker geeft de relevante kolommen op bij het opstarten, en het tool valideert alles voordat het verdergaat. Dit maakt het herbruikbaar voor zeer uiteenlopende use cases, van restaurantmenu\'s tot productcatalogi.',
-        'Robuuste invoervalidatie was een kernfocus. Elke gebruikersinteractie — het invoeren van een bestandsnaam, het kiezen van kolomnamen of het bestellen van items — wordt gevalideerd en herhaald totdat geldige invoer wordt gegeven. De append-logica voor order.csv is ook zorgvuldig afgehandeld om dubbele headers te vermijden als het bestand al bestaat.',
+        'Ik heb dit tool volledig flexibel gebouwd: er worden geen kolomnamen hardgecodeerd, zodat het direct werkt met elke CSV-prijslijst. De gebruiker geeft de relevante kolommen op bij het opstarten, en het tool valideert alles voordat het verdergaat. Dit maakt het herbruikbaar voor zeer uiteenlopende use cases, van restaurantmenu\'s tot productcatalogi.',
+        'Robuuste invoervalidatie was een kernfocus. Elke gebruikersinteractie wordt gevalideerd en herhaald totdat geldige invoer wordt gegeven, of dat nu het invoeren van een bestandsnaam, het kiezen van kolomnamen of het bestellen van items is. De append-logica voor order.csv is ook zorgvuldig afgehandeld om dubbele headers te vermijden als het bestand al bestaat.',
       ],
     },
     skillTags: ['Python', 'CLI Development', 'File I/O', 'Input Validation'],
@@ -190,7 +190,7 @@ export const projects = [
     },
     results: {
       en: 'The live stock screener is now fully operational and demonstrates my ability to create functional web applications using Python. This project represents an important milestone in my learning journey, showing that I can not only design digital experiences but also build the technology behind them.',
-      nl: 'De live aandelenscreener is nu volledig operationeel en toont mijn vermogen om functionele webapplicaties te bouwen met Python. Dit project is een belangrijke mijlpaal in mijn leertraject — het laat zien dat ik niet alleen digitale ervaringen kan ontwerpen, maar ook de technologie erachter kan bouwen.',
+      nl: 'De live aandelenscreener is nu volledig operationeel en toont mijn vermogen om functionele webapplicaties te bouwen met Python. Dit project is een belangrijke mijlpaal in mijn leertraject. Het laat zien dat ik niet alleen digitale ervaringen kan ontwerpen, maar ook de technologie erachter kan bouwen.',
     },
     skillTags: ['Python', 'Streamlit', 'Data Visualization', 'Web Development', 'API Integration'],
     iconPosition: { x: '75.7%', y: '8.2%' },
@@ -209,8 +209,8 @@ export const projects = [
     liveEmbed: 'https://password-generator-amber-three-36.vercel.app/',
     githubUrl: 'https://github.com/dinand1203/Password-Generator',
     overview: {
-      en: 'For this project, I built a modern password generator using Next.js and TypeScript. This web app lets users quickly generate strong passwords and easily customize them — for example by changing the length or choosing which character types to include. I focused on creating an interface that looks clean and feels good to use, so generating a secure password is simple and hassle-free.',
-      nl: 'Voor dit project bouwde ik een moderne wachtwoordgenerator met Next.js en TypeScript. Deze web-app laat gebruikers snel sterke wachtwoorden genereren en eenvoudig aanpassen — zoals het wijzigen van de lengte of het kiezen welke tekentypes worden gebruikt. Ik focuste op een interface die er strak uitziet en prettig aanvoelt, zodat het genereren van een veilig wachtwoord eenvoudig en moeiteloos is.',
+      en: 'For this project, I built a modern password generator using Next.js and TypeScript. This web app lets users quickly generate strong passwords and easily customize them, for example by changing the length or choosing which character types to include. I focused on creating an interface that looks clean and feels good to use, so generating a secure password is simple and hassle-free.',
+      nl: 'Voor dit project bouwde ik een moderne wachtwoordgenerator met Next.js en TypeScript. Deze web-app laat gebruikers snel sterke wachtwoorden genereren en eenvoudig aanpassen, zoals het wijzigen van de lengte of het kiezen welke tekentypes worden gebruikt. Ik focuste op een interface die er strak uitziet en prettig aanvoelt, zodat het genereren van een veilig wachtwoord eenvoudig en moeiteloos is.',
     },
     challenge: {
       en: 'Strong passwords are essential today, but a lot of password generators feel outdated or offer limited options. My goal was to build a tool that does two things well: generate technically strong (secure) passwords, and provide a modern, smooth user experience. Not only "it works," but also "it\'s pleasant to use."',
@@ -219,12 +219,12 @@ export const projects = [
     approach: {
       en: [
         'I chose Next.js (App Router) because it\'s fast, modern, and a great fit for building a polished React-based web app. TypeScript helped me keep everything structured and reduce mistakes early. For styling, I used Tailwind CSS so I could build a responsive and consistent UI quickly.',
-        'Inside the app, I used React Hooks to manage settings and update the generated password instantly whenever the user changes an option. Users can adjust things in real time — like password length and which character sets to include — to generate a password that fits their needs.',
+        'Inside the app, I used React Hooks to manage settings and update the generated password instantly whenever the user changes an option. Users can adjust things in real time, like password length and which character sets to include, to generate a password that fits their needs.',
         'I deployed the application on Vercel, which integrates seamlessly with Next.js. The code is maintained on GitHub with a clean structure and version control best practices.',
       ],
       nl: [
         'Ik koos voor Next.js (App Router) omdat het snel en modern is en goed past bij het bouwen van een verzorgde React-webapplicatie. TypeScript hielp me alles gestructureerd te houden en vroeg fouten te vermijden. Voor de styling gebruikte ik Tailwind CSS om snel een responsieve en consistente UI te bouwen.',
-        'Binnen de app gebruikte ik React Hooks om de instellingen te beheren en het gegenereerde wachtwoord direct bij te werken wanneer de gebruiker een optie wijzigt. Gebruikers kunnen dingen in realtime aanpassen — zoals wachtwoordlengte en tekentypes — om een wachtwoord te genereren dat bij hun behoeften past.',
+        'Binnen de app gebruikte ik React Hooks om de instellingen te beheren en het gegenereerde wachtwoord direct bij te werken wanneer de gebruiker een optie wijzigt. Gebruikers kunnen dingen in realtime aanpassen, zoals wachtwoordlengte en tekentypes, om een wachtwoord te genereren dat bij hun behoeften past.',
         'Ik heb de applicatie gedeployed op Vercel, dat naadloos integreert met Next.js. De code wordt beheerd op GitHub met een overzichtelijke structuur en goede versiebeheergewoonten.',
       ],
     },
@@ -261,22 +261,22 @@ export const projects = [
       nl: 'Kunstmatige intelligentie voelt vaak als magie: moeiteloos en onzichtbaar. Maar achter elke prompt en elk gegenereerd beeld schuilt een groeiende ecologische kost in energie en water. Dit project, Thermal AI, duikt onder het oppervlak van onze digitale tools. Het onderzoekt hoe we de abstracte milieu-impact van AI kunnen vertalen naar een directe, fysieke ervaring om dieper bewustzijn en reflectie te stimuleren.',
     },
     challenge: {
-      en: 'The ecological footprint of AI — from training models to executing a simple prompt — is completely invisible. A single question to ChatGPT can consume up to 100 times more energy than a normal Google search. The core problem is that these abstract costs prevent any real awareness, especially in young adults (20–30) who use AI daily but have no idea of the concrete environmental consequences.',
-      nl: 'De ecologische voetafdruk van AI — van het trainen van modellen tot het uitvoeren van een simpele prompt — is volledig onzichtbaar. Een enkele vraag aan ChatGPT kan tot 100 keer meer energie verbruiken dan een normale Google-zoekopdracht. Het kernprobleem is dat deze abstracte kosten elk echt bewustzijn in de weg staan, vooral bij jonge volwassenen (20–30) die AI dagelijks gebruiken maar geen idee hebben van de concrete milieugevolgen.',
+      en: 'The ecological footprint of AI, from training models to executing a simple prompt, is completely invisible. A single question to ChatGPT can consume up to 100 times more energy than a normal Google search. The core problem is that these abstract costs prevent any real awareness, especially in young adults (20–30) who use AI daily but have no idea of the concrete environmental consequences.',
+      nl: 'De ecologische voetafdruk van AI, van het trainen van modellen tot het uitvoeren van een simpele prompt, is volledig onzichtbaar. Een enkele vraag aan ChatGPT kan tot 100 keer meer energie verbruiken dan een normale Google-zoekopdracht. Het kernprobleem is dat deze abstracte kosten elk echt bewustzijn in de weg staan, vooral bij jonge volwassenen (20–30) die AI dagelijks gebruiken maar geen idee hebben van de concrete milieugevolgen.',
     },
     approach: {
       en: [
-        'The design solution is a thermal mousepad prototype that increases in temperature as AI use intensifies. When a user performs a task, they literally feel the energy impact of their digital action as warmth on their forearm. A complex task — like generating an image — results in a fast and intense rise in temperature, while a simple question causes a more subtle warmth.',
-        'Through this direct physical connection, the user becomes intuitively — and confrontationally — aware of the energy their digital actions consume. Thermal AI is not just a technological tool, but also an instrument for reflection.',
+        'The design solution is a thermal mousepad prototype that increases in temperature as AI use intensifies. When a user performs a task, they literally feel the energy impact of their digital action as warmth on their forearm. A complex task like generating an image results in a fast and intense rise in temperature, while a simple question causes a more subtle warmth.',
+        'Through this direct physical connection, the user becomes intuitively and confrontationally aware of the energy their digital actions consume. Thermal AI is not just a technological tool, but also an instrument for reflection.',
       ],
       nl: [
-        'De ontwerpoplossing is een thermisch muismat prototype dat in temperatuur stijgt naarmate het AI-gebruik intensiever wordt. Wanneer een gebruiker een taak uitvoert, voelt hij letterlijk de energie-impact van zijn digitale actie als warmte op zijn onderarm. Een complexe taak — zoals het genereren van een afbeelding — resulteert in een snelle en intense temperatuurstijging, terwijl een eenvoudige vraag een subtielere warmte veroorzaakt.',
-        'Door deze directe fysieke verbinding wordt de gebruiker intuïtief — en confronterend — bewust van de energie die zijn digitale acties verbruiken. Thermal AI is niet alleen een technologisch instrument, maar ook een middel tot reflectie.',
+        'De ontwerpoplossing is een thermisch muismat prototype dat in temperatuur stijgt naarmate het AI-gebruik intensiever wordt. Wanneer een gebruiker een taak uitvoert, voelt hij letterlijk de energie-impact van zijn digitale actie als warmte op zijn onderarm. Een complexe taak zoals het genereren van een afbeelding resulteert in een snelle en intense temperatuurstijging, terwijl een eenvoudige vraag een subtielere warmte veroorzaakt.',
+        'Door deze directe fysieke verbinding wordt de gebruiker intuïtief en confronterend bewust van de energie die zijn digitale acties verbruiken. Thermal AI is niet alleen een technologisch instrument, maar ook een middel tot reflectie.',
       ],
     },
     results: {
-      en: 'The prototype was tested with users in the target group (20–30 years old). Physical feedback dramatically increased perceived awareness of AI\'s environmental cost — validating the core hypothesis that embodied experience can bridge the gap between abstract data and meaningful reflection.',
-      nl: 'Het prototype werd getest met gebruikers uit de doelgroep (20–30 jaar). Fysieke feedback verhoogde het bewustzijn over de milieu-impact van AI aanzienlijk — wat de kernhypothese bevestigde dat een belichaamde ervaring de kloof tussen abstracte data en zinvolle reflectie kan overbruggen.',
+      en: 'The prototype was tested with users in the target group (20–30 years old). Physical feedback dramatically increased perceived awareness of AI\'s environmental cost, validating the core hypothesis that embodied experience can bridge the gap between abstract data and meaningful reflection.',
+      nl: 'Het prototype werd getest met gebruikers uit de doelgroep (20–30 jaar). Fysieke feedback verhoogde het bewustzijn over de milieu-impact van AI aanzienlijk, wat de kernhypothese bevestigde dat een belichaamde ervaring de kloof tussen abstracte data en zinvolle reflectie kan overbruggen.',
     },
     skillTags: ['JavaScript', 'Node.js', 'React', 'TypeScript', 'Arduino', 'Replit', 'Hardware Prototyping', 'User Research', 'Interaction Design', 'Embodied Experience'],
     iconPosition: { x: '82.5%', y: '38.4%' },
@@ -352,7 +352,7 @@ export const projects = [
     approach: {
       en: [
         'First, I had to create the 3D model of the football shirt. Once that was done, I used UV maps to apply the corresponding designs to the shirts. I then created the right composition and lighting and rendered a 10-second animation.',
-        'After that, I imported these clips into After Effects to add the final touches — titles, player names, overlays — and then they were ready to be shared on Instagram.',
+        'After that, I imported these clips into After Effects to add the final touches like titles, player names, and overlays, before sharing them on Instagram.',
       ],
       nl: [
         'Eerst het 3D-model van het voetbalshirt gemaakt. Daarna UV-maps gebruikt om de ontwerpen op de shirts te plaatsen. Vervolgens de juiste compositie en verlichting gecreëerd en een animatie van 10 seconden gerenderd.',
@@ -380,7 +380,7 @@ export const projects = [
       { src: '/images/projects/uv_label_beverage_campaign.jpg', alt: 'UV Label Design and Mapping', caption: { en: 'UV label design and mapping for the beverage can', nl: 'UV-labelontwerp en -mapping voor het drankblik' } },
     ],
     overview: {
-      en: 'This project involved creating a photorealistic 3D product visualization for a beverage marketing campaign. The goal was to produce eye-catching promotional materials that could be used across digital and print media. The main focus was to dive deep into 3D software, experimenting with lighting, materials, and composition to achieve a level of realism that could rival — or even surpass — traditional product photography.',
+      en: 'This project involved creating a photorealistic 3D product visualization for a beverage marketing campaign. The goal was to produce eye-catching promotional materials that could be used across digital and print media. The main focus was to dive deep into 3D software, experimenting with lighting, materials, and composition to achieve a level of realism that could rival or even surpass traditional product photography.',
       nl: 'Een fotorealistische 3D productvisualisatie voor een drankmarketingcampagne. Het doel was promotioneel materiaal te produceren voor digitale en print media, door te experimenteren met verlichting, materialen en compositie.',
     },
     challenge: {
@@ -429,9 +429,9 @@ export const aboutData = {
   ],
   bio: {
     en: [
-      "I'm a multimedia designer and developer who recently graduated from Avans University of Applied Sciences in Breda. I love combining creative thinking with technology, so an idea doesn't just look good — it actually works well too.",
+      "I'm a multimedia designer and developer who recently graduated from Avans University of Applied Sciences in Breda. I love combining creative thinking with technology, so an idea doesn't just look good but actually works well too.",
       "In my work, I focus on the full picture: from concept and visual design to interaction and implementation. I enjoy refining details like animations, micro-interactions, and user flow, because those small touches often make an experience feel complete.",
-      "Alongside design, I'm actively growing my development skills — constantly learning more about web development and building interactive digital experiences. Each project is a chance to try something new, improve my skills, and create digital experiences that are not only functional, but also memorable.",
+      "Alongside design, I'm actively growing my development skills, constantly learning more about web development and building interactive digital experiences. Each project is a chance to try something new, improve my skills, and create digital experiences that are not only functional, but also memorable.",
     ],
     nl: [
       "Ik ben een multimedia designer en developer die onlangs is afgestudeerd aan Avans Hogeschool in Breda. Ik combineer graag creatief denken met technologie, zodat een idee er niet alleen goed uitziet, maar ook goed werkt.",
