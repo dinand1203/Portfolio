@@ -426,6 +426,13 @@ export const aboutData = {
       skills: ['Python'],
       url: 'https://certificates.cs50.io/54d51bb4-26c3-4cf3-8e17-8eb279f0329b',
     },
+    {
+      name: 'CS50W Web Programming with Python and JavaScript',
+      issuer: 'CS50',
+      date: { en: 'Apr. 2026', nl: 'Apr. 2026' },
+      skills: ['Python', 'JavaScript', 'Web Development'],
+      url: 'https://cs50.harvard.edu/certificates/9763c17b-4aeb-4568-a031-faea6b11fa8d',
+    },
   ],
   bio: {
     en: [
