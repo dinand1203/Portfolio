@@ -8,6 +8,8 @@ const app = express()
 const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY })
 
 const ALLOWED_ORIGINS = [
+  'https://dinanddap.nl',
+  'https://www.dinanddap.nl',
   'https://dinand1203.github.io',
   'http://localhost:5173',
   'http://localhost:5174',
