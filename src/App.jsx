@@ -41,7 +41,8 @@ export default function App() {
     const init = {}
     init['about'] = { isOpen: false, zIndex: BASE_Z + 1, position: { x: 80, y: 100 } }
     init['skills'] = { isOpen: false, zIndex: BASE_Z, position: getDefaultWindowPos(1) }
-    init['chat'] = { isOpen: false, zIndex: BASE_Z, position: { x: Math.max(16, window.innerWidth - 480), y: 80 } }
+    const isMobileInit = window.innerWidth < 900
+    init['chat'] = { isOpen: false, zIndex: BASE_Z, position: isMobileInit ? { x: 8, y: 8 } : { x: Math.max(16, window.innerWidth - 480), y: 80 } }
     // Projects — all closed
     projects.forEach((p, i) => {
       init[p.id] = { isOpen: false, zIndex: BASE_Z, position: getDefaultWindowPos(i) }

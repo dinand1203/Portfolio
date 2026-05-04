@@ -182,6 +182,42 @@
 /* ── Mobile ── */
 @media (max-width: 900px) {
   .window--chat {
-    width: calc(100vw - 32px);
+    width: calc(100vw - 16px) !important;
+    height: calc(100svh - 110px) !important;
+    max-height: calc(100svh - 110px) !important;
+    left: 8px !important;
+    top: 8px !important;
+    border-radius: 16px;
+  }
+
+  .chat-window__messages {
+    padding: 14px 12px;
+    gap: 8px;
+  }
+
+  .chat-window__bubble {
+    max-width: 82%;
+    font-size: 14.5px;
+    padding: 10px 13px;
+  }
+
+  .chat-window__avatar {
+    width: 26px;
+    height: 26px;
+    font-size: 10px;
+  }
+
+  .chat-window__input-area {
+    padding: 10px 12px;
+  }
+
+  /* Prevents iOS from zooming in on input focus */
+  .chat-window__input {
+    font-size: 16px;
+  }
+
+  .chat-window__send {
+    width: 38px;
+    height: 38px;
   }
 }
