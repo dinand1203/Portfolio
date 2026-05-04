@@ -3,7 +3,7 @@ import './Dock.css'
 const LINKEDIN_URL = 'https://www.linkedin.com/in/dinand-dap1'
 const GITHUB_URL = 'https://github.com/dinand1203'
 
-export function Dock({ onOpenAbout, onOpenSkills, onToggleLang, lang }) {
+export function Dock({ onOpenAbout, onOpenSkills, onOpenChat, onToggleLang, lang }) {
   return (
     <div className="dock glass">
       {/* About */}
@@ -20,6 +20,16 @@ export function Dock({ onOpenAbout, onOpenSkills, onToggleLang, lang }) {
           <span>✦</span>
         </div>
         <span className="dock__tooltip">{lang === 'en' ? 'Skills' : 'Vaardigheden'}</span>
+      </button>
+
+      {/* Chat */}
+      <button className="dock__item" onClick={onOpenChat} title="Chat">
+        <div className="dock__icon dock__icon--chat">
+          <svg viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 2H4C2.9 2 2 2.9 2 4v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/>
+          </svg>
+        </div>
+        <span className="dock__tooltip">{lang === 'nl' ? 'Stel een vraag' : 'Ask me anything'}</span>
       </button>
 
       <div className="dock__divider" />

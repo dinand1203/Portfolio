@@ -96,6 +96,17 @@
   height: 100%;
 }
 
+/* Chat */
+.dock__icon--chat {
+  background: linear-gradient(135deg, #32ade6, #0071e3);
+  padding: 11px;
+}
+
+.dock__icon--chat svg {
+  width: 100%;
+  height: 100%;
+}
+
 /* Lang toggle */
 .dock__icon--lang {
   background: linear-gradient(135deg, #6366f1, #4f46e5);

@@ -2,14 +2,14 @@ import { useRef } from 'react'
 import { useDraggable } from '../hooks/useDraggable'
 import './Window.css'
 
-export function Window({ id, title, isOpen, onClose, onFocus, zIndex, initialPosition, children }) {
+export function Window({ id, title, isOpen, onClose, onFocus, zIndex, initialPosition, children, className }) {
   const { position, onMouseDown, onTouchStart } = useDraggable(initialPosition)
 
   if (!isOpen) return null
 
   return (
     <div
-      className="window glass"
+      className={`window glass${className ? ` ${className}` : ''}`}
       style={{ left: position.x, top: position.y, zIndex }}
       onMouseDown={onFocus}
     >

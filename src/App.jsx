@@ -4,6 +4,7 @@ import { DesktopIcon } from './components/DesktopIcon'
 import { AboutWindow } from './components/AboutWindow'
 import { SkillsWindow } from './components/SkillsWindow'
 import { ProjectWindow } from './components/ProjectWindow'
+import { ChatWindow } from './components/ChatWindow'
 import { MobileGrid } from './components/MobileGrid'
 import { Dock } from './components/Dock'
 import './App.css'
@@ -39,8 +40,8 @@ export default function App() {
   const [windowStates, setWindowStates] = useState(() => {
     const init = {}
     init['about'] = { isOpen: false, zIndex: BASE_Z + 1, position: { x: 80, y: 100 } }
-    // Skills — closed
     init['skills'] = { isOpen: false, zIndex: BASE_Z, position: getDefaultWindowPos(1) }
+    init['chat'] = { isOpen: false, zIndex: BASE_Z, position: { x: Math.max(16, window.innerWidth - 480), y: 80 } }
     // Projects — all closed
     projects.forEach((p, i) => {
       init[p.id] = { isOpen: false, zIndex: BASE_Z, position: getDefaultWindowPos(i) }
@@ -104,6 +105,15 @@ export default function App() {
       closeWindow('skills')
     } else {
       openWindow('skills')
+    }
+  }, [windowStates, openWindow, closeWindow])
+
+  const toggleChat = useCallback(() => {
+    const state = windowStates['chat']
+    if (state.isOpen) {
+      closeWindow('chat')
+    } else {
+      openWindow('chat')
     }
   }, [windowStates, openWindow, closeWindow])
 
@@ -175,10 +185,20 @@ export default function App() {
         />
       ))}
 
+      <ChatWindow
+        isOpen={windowStates['chat'].isOpen}
+        zIndex={windowStates['chat'].zIndex}
+        initialPosition={windowStates['chat'].position}
+        onClose={closeWindow}
+        onFocus={() => bringToFront('chat')}
+        lang={lang}
+      />
+
       {/* Dock */}
       <Dock
         onOpenAbout={toggleAbout}
         onOpenSkills={toggleSkills}
+        onOpenChat={toggleChat}
         onToggleLang={toggleLang}
         lang={lang}
       />
