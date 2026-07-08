@@ -15,8 +15,8 @@ export const site = {
 
   hero: {
     kicker: {
-      en: 'Full-Stack Developer — Breda, NL',
-      nl: 'Full-Stack Developer — Breda, NL',
+      en: 'Designer & Developer — Breda, NL',
+      nl: 'Designer & Developer — Breda, NL',
     },
     // The italic serif word is injected between headlineA and headlineB
     headlineA: { en: 'I build web applications', nl: 'Ik bouw webapplicaties' },

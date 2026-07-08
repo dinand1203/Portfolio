@@ -5,7 +5,7 @@ export const projects = [
     title: { en: 'TripPilot AI', nl: 'TripPilot AI' },
     subtitle: { en: 'AI-Powered Travel Planning Application', nl: 'AI-gestuurd Reisplanningsapp' },
     year: '2026',
-    role: { en: 'Full-Stack Developer', nl: 'Full-Stack Ontwikkelaar' },
+    role: { en: 'Design & Development', nl: 'Ontwerp & Ontwikkeling' },
     status: 'in-progress',
     tags: ['Next.js', 'TypeScript', 'Gemini AI', 'Supabase'],
     thumbnail: '/images/projects/icons/trippilotai-icon.png',
@@ -61,7 +61,7 @@ export const projects = [
     title: { en: 'Trading Dashboard', nl: 'Trading Dashboard' },
     subtitle: { en: 'Self-Hosted Trading Performance Tracker', nl: 'Zelfgehoste Handelsprestatie Tracker' },
     year: '2026',
-    role: { en: 'Full-Stack Developer', nl: 'Full-Stack Ontwikkelaar' },
+    role: { en: 'Design & Development', nl: 'Ontwerp & Ontwikkeling' },
     status: 'completed',
     tags: ['Python', 'Django', 'pandas', 'Docker'],
     thumbnail: '/images/projects/icons/trading-dashboard-icon.png',
@@ -205,7 +205,7 @@ export const projects = [
     title: { en: 'Password Generator', nl: 'Wachtwoordgenerator' },
     subtitle: { en: 'Modern, Secure Password Generator Built with Next.js & TypeScript', nl: 'Moderne, Veilige Wachtwoordgenerator met Next.js & TypeScript' },
     year: '2025',
-    role: { en: 'Full-Stack Developer', nl: 'Full-Stack Ontwikkelaar' },
+    role: { en: 'Design & Development', nl: 'Ontwerp & Ontwikkeling' },
     status: 'completed',
     tags: ['Next.js', 'TypeScript', 'Tailwind CSS'],
     thumbnail: '/images/projects/icons/password-generator-icon.png',
@@ -417,7 +417,7 @@ export const projects = [
 
 export const aboutData = {
   name: 'Dinand Dap',
-  position: { en: 'Full-Stack Developer', nl: 'Full-Stack Developer' },
+  position: { en: 'Designer & Developer', nl: 'Designer & Developer' },
   email: 'dinand@dap-group.com',
   university: { en: 'Avans University of Applied Sciences, Breda', nl: 'Avans Hogeschool, Breda' },
   avatar: '/images/projects/icons/aboutme-desktopicon.svg',
@@ -445,12 +445,12 @@ export const aboutData = {
   ],
   bio: {
     en: [
-      "I'm a full-stack developer from Breda, the Netherlands. I build web applications end to end — data models, APIs, and the interfaces on top of them — working mostly with React, Next.js, TypeScript, Python and Django.",
+      "I'm a designer turned developer from Breda, the Netherlands. My degree is in Communication & Multimedia Design — the developer side is self-built. I design and build web applications end to end: data models, APIs, and the interfaces on top of them, working mostly with React, Next.js, TypeScript, Python and Django.",
       "I started in multimedia design and graduated from Avans University of Applied Sciences, then moved into software through Harvard's CS50 programmes and a steady stream of self-built projects: a trading analytics dashboard, an AI travel planner, and this portfolio with its self-hosted chat API. The design background didn't disappear — it shows in the interfaces I ship.",
       "What drives me is owning the whole problem: understanding it, designing the solution, building it, and getting it deployed. Every project on this site is live or documented, and most of them run in production.",
     ],
     nl: [
-      "Ik ben een full-stack developer uit Breda. Ik bouw webapplicaties van begin tot eind — datamodellen, API's en de interfaces daarbovenop — voornamelijk met React, Next.js, TypeScript, Python en Django.",
+      "Ik ben een designer die developer werd, uit Breda. Mijn diploma is in Communication & Multimedia Design — de developer-kant heb ik zelf opgebouwd. Ik ontwerp en bouw webapplicaties van begin tot eind: datamodellen, API's en de interfaces daarbovenop, voornamelijk met React, Next.js, TypeScript, Python en Django.",
       "Ik begon in multimediadesign en studeerde af aan Avans Hogeschool, waarna ik via Harvards CS50-programma's en een reeks eigen projecten de software-kant opging: een trading-analytics-dashboard, een AI-reisplanner en deze portfolio met zijn zelfgehoste chat-API. De designachtergrond verdween niet — die zie je terug in de interfaces die ik oplever.",
       "Wat mij drijft is het hele probleem oplossen: begrijpen, ontwerpen, bouwen en deployen. Elk project op deze site is live of gedocumenteerd, en de meeste draaien in productie.",
     ],
