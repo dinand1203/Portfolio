@@ -31,18 +31,6 @@
   min-width: 0;
 }
 
-.nav__brand-mark {
-  font-family: var(--font-mono);
-  font-size: 12px;
-  font-weight: 500;
-  letter-spacing: 0.08em;
-  color: var(--bg);
-  background: var(--text);
-  border-radius: 5px;
-  padding: 4px 6px;
-  line-height: 1;
-}
-
 .nav__brand-name {
   font-size: 15px;
   font-weight: 600;
@@ -105,7 +93,7 @@
 }
 
 @media (max-width: 720px) {
-  .nav__brand-name,
+  .nav__brand,
   .nav__link--github {
     display: none;
   }

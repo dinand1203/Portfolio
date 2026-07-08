@@ -38,7 +38,6 @@ export function Navbar() {
     <header className={`nav ${scrolled ? 'nav--scrolled' : ''}`}>
       <div className="nav__inner container">
         <Link to="/" className="nav__brand" aria-label="Home">
-          <span className="nav__brand-mark">DD</span>
           <span className="nav__brand-name">{site.name}</span>
         </Link>
 
