@@ -1,0 +1,131 @@
+// Bilingual UI copy for the portfolio shell and home page sections.
+
+export const site = {
+  name: 'Dinand Dap',
+  email: 'dinand@dap-group.com',
+  github: 'https://github.com/dinand1203',
+  location: { en: 'Breda, The Netherlands', nl: 'Breda, Nederland' },
+
+  nav: {
+    work: { en: 'Work', nl: 'Werk' },
+    about: { en: 'About', nl: 'Over mij' },
+    skills: { en: 'Skills', nl: 'Vaardigheden' },
+    contact: { en: 'Contact', nl: 'Contact' },
+  },
+
+  hero: {
+    kicker: {
+      en: 'Full-Stack Developer — Breda, NL',
+      nl: 'Full-Stack Developer — Breda, NL',
+    },
+    // The italic serif word is injected between headlineA and headlineB
+    headlineA: { en: 'I build web applications', nl: 'Ik bouw webapplicaties' },
+    headlineEm: { en: 'end to end', nl: 'van begin tot eind' },
+    headlineB: { en: '.', nl: '.' },
+    sub: {
+      en: 'From data models and APIs to interfaces people actually enjoy using. React, Next.js, TypeScript, Python and Django — with a design background that shows in the details.',
+      nl: 'Van datamodellen en API’s tot interfaces die mensen graag gebruiken. React, Next.js, TypeScript, Python en Django — met een designachtergrond die zichtbaar is in de details.',
+    },
+    ctaWork: { en: 'View work', nl: 'Bekijk werk' },
+    ctaChat: { en: 'Ask my AI assistant', nl: 'Vraag mijn AI-assistent' },
+    status: {
+      en: 'Currently building TripPilot AI',
+      nl: 'Werkt momenteel aan TripPilot AI',
+    },
+  },
+
+  work: {
+    kicker: { en: 'Selected work', nl: 'Geselecteerd werk' },
+    title: { en: 'Engineering projects', nl: 'Engineeringprojecten' },
+    inProgress: { en: 'In progress', nl: 'In ontwikkeling' },
+    view: { en: 'View case study', nl: 'Bekijk case study' },
+  },
+
+  designWork: {
+    kicker: { en: 'Earlier work', nl: 'Eerder werk' },
+    title: { en: 'Design & media', nl: 'Design & media' },
+    sub: {
+      en: 'Before moving into software, I worked in video, 3D and brand content. That eye for detail still shapes how I build interfaces today.',
+      nl: 'Voordat ik de software-kant opging, werkte ik met video, 3D en brandcontent. Dat oog voor detail bepaalt nog steeds hoe ik interfaces bouw.',
+    },
+  },
+
+  about: {
+    kicker: { en: 'About', nl: 'Over mij' },
+    title: { en: 'Designer turned developer', nl: 'Van designer naar developer' },
+    factsTitle: { en: 'Facts', nl: 'Feiten' },
+    education: { en: 'Education', nl: 'Opleiding' },
+    certificates: { en: 'Certificates', nl: 'Certificaten' },
+    viewCredential: { en: 'View credential', nl: 'Bekijk certificaat' },
+  },
+
+  skills: {
+    kicker: { en: 'Skills', nl: 'Vaardigheden' },
+    title: { en: 'What I work with', nl: 'Waar ik mee werk' },
+  },
+
+  contact: {
+    kicker: { en: 'Contact', nl: 'Contact' },
+    title: {
+      en: 'Let’s build something.',
+      nl: 'Laten we iets bouwen.',
+    },
+    sub: {
+      en: 'Open to junior/medior developer roles and freelance projects. The fastest way to reach me is email — or ask the AI assistant anything about my work.',
+      nl: 'Open voor junior/medior developerrollen en freelanceprojecten. De snelste manier om mij te bereiken is e-mail — of stel de AI-assistent een vraag over mijn werk.',
+    },
+  },
+
+  footer: {
+    built: {
+      en: 'Designed & built by Dinand Dap — React, Vite, self-hosted AI chat API.',
+      nl: 'Ontworpen & gebouwd door Dinand Dap — React, Vite, zelfgehoste AI-chat-API.',
+    },
+  },
+
+  project: {
+    back: { en: 'All work', nl: 'Al het werk' },
+    year: { en: 'Year', nl: 'Jaar' },
+    role: { en: 'Role', nl: 'Rol' },
+    stack: { en: 'Stack', nl: 'Stack' },
+    status: { en: 'Status', nl: 'Status' },
+    completed: { en: 'Completed', nl: 'Afgerond' },
+    inProgress: { en: 'In progress', nl: 'In ontwikkeling' },
+    liveApp: { en: 'Open live app', nl: 'Open live app' },
+    github: { en: 'View source', nl: 'Bekijk broncode' },
+    overview: { en: 'Overview', nl: 'Overzicht' },
+    challenge: { en: 'The challenge', nl: 'De uitdaging' },
+    features: { en: 'Key features', nl: 'Belangrijkste functies' },
+    techStack: { en: 'Tech stack', nl: 'Tech stack' },
+    layer: { en: 'Layer', nl: 'Laag' },
+    technology: { en: 'Technology', nl: 'Technologie' },
+    approach: { en: 'Approach', nl: 'Aanpak' },
+    researchQuestion: { en: 'Research question', nl: 'Onderzoeksvraag' },
+    gallery: { en: 'Gallery', nl: 'Galerij' },
+    videos: { en: 'Videos', nl: 'Video’s' },
+    videoDemo: { en: 'Video demo', nl: 'Videodemo' },
+    results: { en: 'Results', nl: 'Resultaten' },
+    document: { en: 'Document', nl: 'Document' },
+    viewPdf: { en: 'View PDF', nl: 'Bekijk PDF' },
+    downloadPdf: { en: 'Download PDF', nl: 'Download PDF' },
+    skillsTools: { en: 'Skills & tools', nl: 'Vaardigheden & tools' },
+    nextProject: { en: 'Next project', nl: 'Volgend project' },
+    notFound: { en: 'Project not found.', nl: 'Project niet gevonden.' },
+    backHome: { en: 'Back to home', nl: 'Terug naar home' },
+  },
+
+  chat: {
+    open: { en: 'Chat with my AI assistant', nl: 'Chat met mijn AI-assistent' },
+    title: { en: 'AI assistant', nl: 'AI-assistent' },
+    intro: {
+      en: 'Hi! I’m an AI assistant trained on Dinand’s work. Ask me anything about his projects, skills or experience — in English or Dutch.',
+      nl: 'Hoi! Ik ben een AI-assistent getraind op het werk van Dinand. Stel me een vraag over zijn projecten, vaardigheden of ervaring — in het Nederlands of Engels.',
+    },
+    placeholder: { en: 'Ask anything about Dinand…', nl: 'Stel een vraag over Dinand…' },
+    offline: { en: 'API not configured', nl: 'API niet geconfigureerd' },
+    error: {
+      en: 'Sorry, I’m having trouble connecting right now. Please try again in a moment.',
+      nl: 'Sorry, ik heb momenteel verbindingsproblemen. Probeer het zo opnieuw.',
+    },
+  },
+}

@@ -1,6 +1,7 @@
 export const projects = [
   {
     id: 'trippilot-ai',
+    category: 'engineering',
     title: { en: 'TripPilot AI', nl: 'TripPilot AI' },
     subtitle: { en: 'AI-Powered Travel Planning Application', nl: 'AI-gestuurd Reisplanningsapp' },
     year: '2026',
@@ -56,6 +57,7 @@ export const projects = [
   },
   {
     id: 'trading-dashboard',
+    category: 'engineering',
     title: { en: 'Trading Dashboard', nl: 'Trading Dashboard' },
     subtitle: { en: 'Self-Hosted Trading Performance Tracker', nl: 'Zelfgehoste Handelsprestatie Tracker' },
     year: '2026',
@@ -114,6 +116,7 @@ export const projects = [
   },
   {
     id: 'csv-order-generator',
+    category: 'engineering',
     title: { en: 'CSV Order Generator', nl: 'CSV Bestellingsgenerator' },
     subtitle: { en: 'Command-Line Python Tool for CSV-Based Order Processing', nl: 'CLI Tool — CSV Prijslijst naar Bestelsysteem' },
     year: '2026',
@@ -160,6 +163,7 @@ export const projects = [
   },
   {
     id: 'live-stock-screener',
+    category: 'engineering',
     title: { en: 'Live Stock Screener', nl: 'Live Aandelenscreener' },
     subtitle: { en: 'Interactive Python Web Application for Real-Time Stock Analysis', nl: 'Interactieve Python Webapplicatie voor Realtime Aandelenanalyse' },
     year: '2025',
@@ -171,12 +175,12 @@ export const projects = [
     liveUrl: 'https://stock-screener-ntyw787kxappmeuybnxowhn.streamlit.app',
     liveEmbed: 'https://stock-screener-ntyw787kxappmeuybnxowhn.streamlit.app/?embedded=true',
     overview: {
-      en: 'This live stock screener is a web-based Python application built with Streamlit that allows users to filter and analyze stocks based on various financial metrics in real-time. The application demonstrates my growing skills in Python development and data visualization, marking my transition from pure design work to functional software development.',
-      nl: 'Deze live aandelenscreener is een webgebaseerde Python-applicatie gebouwd met Streamlit waarmee gebruikers aandelen kunnen filteren en analyseren op basis van verschillende financiële statistieken in realtime. De applicatie toont mijn groeiende vaardigheden in Python-ontwikkeling en datavisualisatie, en markeert mijn overgang van puur designwerk naar functionele softwareontwikkeling.',
+      en: 'Live Stock Screener is a web-based Python application built with Streamlit that filters and analyses stocks on real-time financial metrics. It fetches live market data, lets users screen on key indicators, and runs in production on Streamlit Cloud — shipped from local script to publicly deployed application.',
+      nl: 'Live Aandelenscreener is een webgebaseerde Python-applicatie gebouwd met Streamlit die aandelen filtert en analyseert op realtime financiële statistieken. De app haalt live marktdata op, laat gebruikers screenen op belangrijke indicatoren en draait in productie op Streamlit Cloud — van lokaal script naar publiek gedeployde applicatie.',
     },
     challenge: {
-      en: 'As I\'ve been teaching myself Python and web development, I wanted to create a practical application that goes beyond static design projects. The challenge was to build a fully functional web application that processes real financial data, provides an intuitive user interface, and runs reliably in a production environment accessible to anyone with an internet connection.',
-      nl: 'Terwijl ik mezelf Python en webontwikkeling aanleer, wilde ik een praktische applicatie bouwen die verder gaat dan statische designprojecten. De uitdaging was een volledig functionele webapplicatie te bouwen die echte financiële data verwerkt, een intuïtieve gebruikersinterface biedt en betrouwbaar draait in een productieomgeving die voor iedereen toegankelijk is.',
+      en: 'The challenge was to build a web application that processes real financial data, provides an intuitive interface, and runs reliably in production — accessible to anyone with a browser, not just on my own machine.',
+      nl: 'De uitdaging was een webapplicatie te bouwen die echte financiële data verwerkt, een intuïtieve interface biedt en betrouwbaar draait in productie — toegankelijk voor iedereen met een browser, niet alleen op mijn eigen machine.',
     },
     approach: {
       en: [
@@ -189,14 +193,15 @@ export const projects = [
       ],
     },
     results: {
-      en: 'The live stock screener is now fully operational and demonstrates my ability to create functional web applications using Python. This project represents an important milestone in my learning journey, showing that I can not only design digital experiences but also build the technology behind them.',
-      nl: 'De live aandelenscreener is nu volledig operationeel en toont mijn vermogen om functionele webapplicaties te bouwen met Python. Dit project is een belangrijke mijlpaal in mijn leertraject. Het laat zien dat ik niet alleen digitale ervaringen kan ontwerpen, maar ook de technologie erachter kan bouwen.',
+      en: 'The screener is deployed on Streamlit Cloud and publicly accessible. It covered the full cycle of shipping a Python application: dependency management, cloud deployment, and optimising a data-heavy UI for the browser.',
+      nl: 'De screener draait op Streamlit Cloud en is publiek toegankelijk. Het project besloeg de volledige cyclus van het uitbrengen van een Python-applicatie: dependency management, cloud-deployment en het optimaliseren van een data-intensieve UI voor de browser.',
     },
     skillTags: ['Python', 'Streamlit', 'Data Visualization', 'Web Development', 'API Integration'],
     iconPosition: { x: '75.7%', y: '8.2%' },
   },
   {
     id: 'password-generator',
+    category: 'engineering',
     title: { en: 'Password Generator', nl: 'Wachtwoordgenerator' },
     subtitle: { en: 'Modern, Secure Password Generator Built with Next.js & TypeScript', nl: 'Moderne, Veilige Wachtwoordgenerator met Next.js & TypeScript' },
     year: '2025',
@@ -237,6 +242,7 @@ export const projects = [
   },
   {
     id: 'thermal-ai',
+    category: 'engineering',
     title: { en: 'Thermal AI', nl: 'Thermal AI' },
     subtitle: { en: 'Graduation Project: Making AI\'s Environmental Impact Tangible', nl: 'Afstudeerproject: AI\'s Milieu-impact Tastbaar Maken' },
     year: '2025',
@@ -283,6 +289,7 @@ export const projects = [
   },
   {
     id: 'internship-vunzige-deuntjes',
+    category: 'design',
     title: { en: 'Internship Vunzige Deuntjes', nl: 'Stage Vunzige Deuntjes' },
     subtitle: { en: 'Videographer & Editor for Urban Music Festival Brand', nl: 'Videograaf & Editor voor Urban Music Festivalmerk' },
     year: '2023',
@@ -325,6 +332,7 @@ export const projects = [
   },
   {
     id: 'marketing-content-package',
+    category: 'design',
     title: { en: 'Marketing Content Package', nl: 'Marketing Contentpakket' },
     subtitle: { en: 'Social Media Content for Football Club', nl: 'Social Media Content voor Voetbalclub' },
     year: '2023',
@@ -368,6 +376,7 @@ export const projects = [
   },
   {
     id: 'beverage-campaign',
+    category: 'design',
     title: { en: 'Beverage Campaign', nl: 'Drankcampagne' },
     subtitle: { en: '3D Product Visualization & Campaign Design', nl: '3D Productvisualisatie & Campagneontwerp' },
     year: '2022',
@@ -408,7 +417,7 @@ export const projects = [
 
 export const aboutData = {
   name: 'Dinand Dap',
-  position: { en: 'Communication & Multimedia Designer', nl: 'Communicatie & Multimedia Ontwerper' },
+  position: { en: 'Full-Stack Developer', nl: 'Full-Stack Developer' },
   email: 'dinand@dap-group.com',
   university: { en: 'Avans University of Applied Sciences, Breda', nl: 'Avans Hogeschool, Breda' },
   avatar: '/images/projects/icons/aboutme-desktopicon.svg',
@@ -436,27 +445,29 @@ export const aboutData = {
   ],
   bio: {
     en: [
-      "I'm a multimedia designer and developer who recently graduated from Avans University of Applied Sciences in Breda. I love combining creative thinking with technology, so an idea doesn't just look good but actually works well too.",
-      "In my work, I focus on the full picture: from concept and visual design to interaction and implementation. I enjoy refining details like animations, micro-interactions, and user flow, because those small touches often make an experience feel complete.",
-      "Alongside design, I'm actively growing my development skills, constantly learning more about web development and building interactive digital experiences. Each project is a chance to try something new, improve my skills, and create digital experiences that are not only functional, but also memorable.",
+      "I'm a full-stack developer from Breda, the Netherlands. I build web applications end to end — data models, APIs, and the interfaces on top of them — working mostly with React, Next.js, TypeScript, Python and Django.",
+      "I started in multimedia design and graduated from Avans University of Applied Sciences, then moved into software through Harvard's CS50 programmes and a steady stream of self-built projects: a trading analytics dashboard, an AI travel planner, and this portfolio with its self-hosted chat API. The design background didn't disappear — it shows in the interfaces I ship.",
+      "What drives me is owning the whole problem: understanding it, designing the solution, building it, and getting it deployed. Every project on this site is live or documented, and most of them run in production.",
     ],
     nl: [
-      "Ik ben een multimedia designer en developer die onlangs is afgestudeerd aan Avans Hogeschool in Breda. Ik combineer graag creatief denken met technologie, zodat een idee er niet alleen goed uitziet, maar ook goed werkt.",
-      "In mijn werk focus ik op het volledige plaatje: van concept en visueel ontwerp tot interactie en implementatie. Ik ben dol op het verfijnen van details zoals animaties, micro-interacties en gebruikersflow.",
-      "Naast design ontwikkel ik actief mijn programmeervaardigheden. Elk project is een kans om iets nieuws te proberen en digitale ervaringen te creëren die niet alleen functioneel, maar ook gedenkwaardig zijn.",
+      "Ik ben een full-stack developer uit Breda. Ik bouw webapplicaties van begin tot eind — datamodellen, API's en de interfaces daarbovenop — voornamelijk met React, Next.js, TypeScript, Python en Django.",
+      "Ik begon in multimediadesign en studeerde af aan Avans Hogeschool, waarna ik via Harvards CS50-programma's en een reeks eigen projecten de software-kant opging: een trading-analytics-dashboard, een AI-reisplanner en deze portfolio met zijn zelfgehoste chat-API. De designachtergrond verdween niet — die zie je terug in de interfaces die ik oplever.",
+      "Wat mij drijft is het hele probleem oplossen: begrijpen, ontwerpen, bouwen en deployen. Elk project op deze site is live of gedocumenteerd, en de meeste draaien in productie.",
     ],
   },
 }
 
 export const skillsData = {
   en: [
-    { category: 'Design', icon: '✦', skills: ['UI/UX Design', 'Adobe Creative Suite', 'Figma', 'Prototyping', 'Brand Identity'] },
-    { category: 'Multimedia', icon: '◈', skills: ['Video Editing', 'Motion Graphics', '3D Modeling', 'Blender', 'After Effects'] },
-    { category: 'Development', icon: '⌥', skills: ['HTML / CSS / JavaScript', 'React / Next.js', 'Python', 'Arduino', 'TypeScript'] },
+    { category: 'Languages', skills: ['JavaScript / TypeScript', 'Python', 'HTML / CSS', 'SQL'] },
+    { category: 'Frameworks & Libraries', skills: ['React / Next.js', 'Django', 'Node.js', 'Tailwind CSS', 'pandas / NumPy'] },
+    { category: 'Tools & Platforms', skills: ['Git / GitHub Actions', 'Docker', 'Supabase', 'Vercel', 'Arduino'] },
+    { category: 'Design & Media', skills: ['Figma', 'UI/UX Design', 'Blender / 3D', 'After Effects', 'Premiere Pro'] },
   ],
   nl: [
-    { category: 'Design', icon: '✦', skills: ['UI/UX Ontwerp', 'Adobe Creative Suite', 'Figma', 'Prototyping', 'Merkidentiteit'] },
-    { category: 'Multimedia', icon: '◈', skills: ['Videobewerking', 'Motion Graphics', '3D Modellering', 'Blender', 'After Effects'] },
-    { category: 'Development', icon: '⌥', skills: ['HTML / CSS / JavaScript', 'React / Next.js', 'Python', 'Arduino', 'TypeScript'] },
+    { category: 'Talen', skills: ['JavaScript / TypeScript', 'Python', 'HTML / CSS', 'SQL'] },
+    { category: 'Frameworks & libraries', skills: ['React / Next.js', 'Django', 'Node.js', 'Tailwind CSS', 'pandas / NumPy'] },
+    { category: 'Tools & platforms', skills: ['Git / GitHub Actions', 'Docker', 'Supabase', 'Vercel', 'Arduino'] },
+    { category: 'Design & media', skills: ['Figma', 'UI/UX Ontwerp', 'Blender / 3D', 'After Effects', 'Premiere Pro'] },
   ],
 }
