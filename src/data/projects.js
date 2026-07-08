@@ -427,12 +427,6 @@ export const aboutData = {
   avatar: '/images/projects/icons/aboutme-desktopicon.svg',
   certificates: [
     {
-      name: { en: 'Bachelor Communication & Multimedia Design', nl: 'Bachelor Communicatie & Multimedia Design' },
-      issuer: 'Avans Hogeschool',
-      date: { en: 'Sep. 2025', nl: 'Sep. 2025' },
-      skills: ['Adobe Creative Suite', 'Multimedia Design'],
-    },
-    {
       name: 'CS50P Introduction to Programming with Python',
       issuer: 'CS50',
       date: { en: 'Feb. 2026', nl: 'Feb. 2026' },

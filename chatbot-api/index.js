@@ -29,7 +29,6 @@ const SYSTEM_PROMPT = `You are a personal AI assistant embedded in Dinand Dap's 
 Dinand is a multimedia designer and developer who loves combining creative thinking with technology — so an idea doesn't just look good, but works well too. He focuses on the full picture: from concept and visual design to interaction and implementation. He enjoys refining details like animations, micro-interactions, and user flow. He is actively growing his development skills and building interactive digital experiences.
 
 ## Certificates
-- Bachelor Communication & Multimedia Design — Avans Hogeschool (Sep. 2025)
 - CS50P Introduction to Programming with Python — CS50 (Feb. 2026)
 - CS50W Web Programming with Python and JavaScript — CS50 (Apr. 2026)
 
