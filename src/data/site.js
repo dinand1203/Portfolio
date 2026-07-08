@@ -15,16 +15,16 @@ export const site = {
 
   hero: {
     kicker: {
-      en: 'Designer & Developer — Breda, NL',
-      nl: 'Designer & Developer — Breda, NL',
+      en: 'Designer & Developer · Breda, NL',
+      nl: 'Designer & Developer · Breda, NL',
     },
     // The italic serif word is injected between headlineA and headlineB
     headlineA: { en: 'I build web applications', nl: 'Ik bouw webapplicaties' },
     headlineEm: { en: 'end to end', nl: 'van begin tot eind' },
     headlineB: { en: '.', nl: '.' },
     sub: {
-      en: 'From data models and APIs to interfaces people actually enjoy using. React, Next.js, TypeScript, Python and Django — with a design background that shows in the details.',
-      nl: 'Van datamodellen en API’s tot interfaces die mensen graag gebruiken. React, Next.js, TypeScript, Python en Django — met een designachtergrond die zichtbaar is in de details.',
+      en: 'I like building the whole thing: the data model, the API, and the interface on top. Most of my work uses React, Next.js, TypeScript, Python and Django, and my design background shows in the details.',
+      nl: 'Ik bouw het liefst het hele geheel: het datamodel, de API en de interface daarbovenop. Meestal werk ik met React, Next.js, TypeScript, Python en Django, en mijn designachtergrond zie je terug in de details.',
     },
     ctaWork: { en: 'View work', nl: 'Bekijk werk' },
     ctaChat: { en: 'Ask my AI assistant', nl: 'Vraag mijn AI-assistent' },
@@ -45,8 +45,8 @@ export const site = {
     kicker: { en: 'Earlier work', nl: 'Eerder werk' },
     title: { en: 'Design & media', nl: 'Design & media' },
     sub: {
-      en: 'Before moving into software, I worked in video, 3D and brand content. That eye for detail still shapes how I build interfaces today.',
-      nl: 'Voordat ik de software-kant opging, werkte ik met video, 3D en brandcontent. Dat oog voor detail bepaalt nog steeds hoe ik interfaces bouw.',
+      en: 'Before software, I made video, 3D renders and brand content. A lot of what I learned there still ends up in my interfaces.',
+      nl: 'Voordat ik software ging bouwen, maakte ik video’s, 3D-renders en brandcontent. Veel van wat ik daar leerde, komt nog steeds terug in mijn interfaces.',
     },
   },
 
@@ -71,15 +71,15 @@ export const site = {
       nl: 'Laten we iets bouwen.',
     },
     sub: {
-      en: 'Open to junior/medior developer roles and freelance projects. The fastest way to reach me is email — or ask the AI assistant anything about my work.',
-      nl: 'Open voor junior/medior developerrollen en freelanceprojecten. De snelste manier om mij te bereiken is e-mail — of stel de AI-assistent een vraag over mijn werk.',
+      en: 'Open to junior or medior developer roles and freelance projects. Email is the fastest way to reach me. You can also ask the AI assistant about my work first.',
+      nl: 'Open voor junior of medior developerrollen en freelanceprojecten. E-mail is de snelste manier om mij te bereiken. Je kunt ook eerst de AI-assistent een vraag stellen over mijn werk.',
     },
   },
 
   footer: {
     built: {
-      en: 'Designed & built by Dinand Dap — React, Vite, self-hosted AI chat API.',
-      nl: 'Ontworpen & gebouwd door Dinand Dap — React, Vite, zelfgehoste AI-chat-API.',
+      en: 'Designed and built by Dinand Dap with React, Vite and a self-hosted chat API.',
+      nl: 'Ontworpen en gebouwd door Dinand Dap met React, Vite en een zelfgehoste chat-API.',
     },
   },
 
@@ -118,8 +118,8 @@ export const site = {
     open: { en: 'Chat with my AI assistant', nl: 'Chat met mijn AI-assistent' },
     title: { en: 'AI assistant', nl: 'AI-assistent' },
     intro: {
-      en: 'Hi! I’m an AI assistant trained on Dinand’s work. Ask me anything about his projects, skills or experience — in English or Dutch.',
-      nl: 'Hoi! Ik ben een AI-assistent getraind op het werk van Dinand. Stel me een vraag over zijn projecten, vaardigheden of ervaring — in het Nederlands of Engels.',
+      en: 'Hi! I’m an AI assistant trained on Dinand’s work. Ask me about his projects, skills or experience, in English or Dutch.',
+      nl: 'Hoi! Ik ben een AI-assistent getraind op het werk van Dinand. Stel me een vraag over zijn projecten, vaardigheden of ervaring, in het Nederlands of Engels.',
     },
     placeholder: { en: 'Ask anything about Dinand…', nl: 'Stel een vraag over Dinand…' },
     offline: { en: 'API not configured', nl: 'API niet geconfigureerd' },

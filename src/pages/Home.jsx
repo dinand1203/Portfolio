@@ -107,7 +107,7 @@ function DesignSection() {
               </div>
               <div className="design-card__body">
                 <h3 className="design-card__title">{t(p.title)}</h3>
-                <p className="design-card__meta">{p.year} — {t(p.role)}</p>
+                <p className="design-card__meta">{p.year} · {t(p.role)}</p>
               </div>
             </Link>
           ))}
@@ -138,7 +138,8 @@ function AboutSection() {
           <aside className="about__facts">
             <div className="about__fact">
               <span className="about__fact-label">{t(site.about.education)}</span>
-              <span className="about__fact-value">{t(d.university)}</span>
+              <span className="about__fact-value">{t(d.education.degree)}</span>
+              <span className="about__cert-meta">{t(d.education.school)} · {d.education.period}</span>
             </div>
             <div className="about__fact">
               <span className="about__fact-label">{t(site.about.certificates)}</span>

@@ -21,7 +21,7 @@ const SYSTEM_PROMPT = `You are a personal AI assistant embedded in Dinand Dap's 
 - Name: Dinand Dap
 - Email: dinand@dap-group.com
 - Role: Communication & Multimedia Designer & Developer
-- Education: Bachelor Communication & Multimedia Design, Avans University of Applied Sciences, Breda (graduated Sep. 2025)
+- Education: Bachelor Communication & Multimedia Design, Avans University of Applied Sciences, Breda (2021 – 2025, graduated Sep. 2025)
 - LinkedIn: https://www.linkedin.com/in/dinand-dap1
 - GitHub: https://github.com/dinand1203
 
