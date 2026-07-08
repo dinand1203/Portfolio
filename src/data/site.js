@@ -4,7 +4,7 @@ export const site = {
   name: 'Dinand Dap',
   email: 'dinand@dap-group.com',
   github: 'https://github.com/dinand1203',
-  location: { en: 'Breda, The Netherlands', nl: 'Breda, Nederland' },
+  location: { en: 'Tholen, The Netherlands', nl: 'Tholen, Nederland' },
 
   nav: {
     work: { en: 'Work', nl: 'Werk' },
@@ -15,8 +15,8 @@ export const site = {
 
   hero: {
     kicker: {
-      en: 'Designer & Developer · Breda, NL',
-      nl: 'Designer & Developer · Breda, NL',
+      en: 'Designer & Developer · Tholen, NL',
+      nl: 'Designer & Developer · Tholen, NL',
     },
     // The italic serif word is injected between headlineA and headlineB
     headlineA: { en: 'I build web applications', nl: 'Ik bouw webapplicaties' },
