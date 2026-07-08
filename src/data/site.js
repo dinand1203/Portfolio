@@ -29,8 +29,8 @@ export const site = {
     ctaWork: { en: 'View work', nl: 'Bekijk werk' },
     ctaChat: { en: 'Ask my AI assistant', nl: 'Vraag mijn AI-assistent' },
     status: {
-      en: 'Currently building TripPilot AI',
-      nl: 'Werkt momenteel aan TripPilot AI',
+      en: 'Currently building Respondly',
+      nl: 'Werkt momenteel aan Respondly',
     },
   },
 

@@ -40,6 +40,9 @@ Dinand is a multimedia designer and developer who loves combining creative think
 
 ## Projects
 
+### Respondly (2026, In Progress — current focus)
+SaaS follow-up assistant for freelancers and consultants. Reads sent Gmail, uses Claude to detect promises ("I'll send that over"), and drafts the follow-up automatically. Dashboard with pending/overdue tracking, daily scans and digest for Pro users. Free + Pro (€12/month) via Stripe. Stack: Next.js 16, TypeScript, Tailwind, Supabase (Postgres + RLS), Stripe, Anthropic Claude API, Resend, Vercel. Live at https://www.respondly.io.
+
 ### TripPilot AI (2026, In Progress)
 Full-stack AI-powered travel planning app. Users describe their ideal trip and Google Gemini AI generates a complete itinerary with activities, hotels, and restaurants. Stack: Next.js, TypeScript, Tailwind CSS, shadcn/ui, Supabase, Google Gemini AI.
 
