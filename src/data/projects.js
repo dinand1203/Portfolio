@@ -11,8 +11,8 @@ export const projects = [
     image: '/images/projects/respondly-hero.png',
     liveUrl: 'https://www.respondly.io',
     overview: {
-      en: 'Respondly is a SaaS tool for freelancers and consultants that reads the emails you send, detects the promises you made ("I\'ll send that over", "let me get back to you"), and surfaces them before they slip — with a follow-up draft ready to go. Connect your Gmail and never lose a client because you forgot to follow up.',
-      nl: 'Respondly is een SaaS-tool voor freelancers en consultants die de e-mails leest die je verstuurt, de beloftes daarin herkent ("ik stuur het je toe", "ik kom erop terug") en ze op tijd laat zien — met een kant-en-klaar follow-upconcept erbij. Koppel je Gmail en verlies nooit meer een klant omdat je vergat op te volgen.',
+      en: 'Respondly is a SaaS tool for freelancers and consultants. It reads the emails you send, detects the promises you made ("I\'ll send that over", "let me get back to you"), and surfaces them before they slip, with a follow-up draft ready to go. Connect your Gmail and never lose a client because you forgot to follow up.',
+      nl: 'Respondly is een SaaS-tool voor freelancers en consultants. Het leest de e-mails die je verstuurt, herkent de beloftes daarin ("ik stuur het je toe", "ik kom erop terug") en laat ze op tijd zien, met een kant-en-klaar follow-upconcept erbij. Koppel je Gmail en verlies nooit meer een klant omdat je vergat op te volgen.',
     },
     challenge: {
       en: 'Freelancers make dozens of small promises over email every week, and the ones that slip cost real money: lost deals, stalled projects, damaged trust. Reminder apps only work if you remember to set the reminder. The challenge was to remove the manual step entirely: detect commitments automatically from sent mail, reliably enough to trust, without turning the product into yet another chat interface.',
@@ -46,19 +46,19 @@ export const projects = [
     ],
     approach: {
       en: [
-        'Respondly started life as a much bigger idea: a multi-agent platform with twenty integrations, schedulers, and a marketplace. The most important engineering decision was cutting all of it. What remains is a single-purpose tool with one core loop — scan, detect, draft — and every new feature has to serve that loop or it gets rejected.',
+        'Respondly started life as a much bigger idea: a multi-agent platform with twenty integrations, schedulers, and a marketplace. The most important engineering decision was cutting all of it. What remains is a single-purpose tool with one core loop: scan, detect, draft. Every new feature has to serve that loop or it gets rejected.',
         'The detection pipeline fetches recent sent mail through the Gmail API, decodes the message bodies, and passes them to Claude with a strict extraction prompt that only reports what is explicitly written: the promise, the exact sentence it came from, the contact, and any deadline. A unique constraint per source message makes rescanning idempotent, so nothing is ever detected twice.',
         'Everything runs on Next.js and Vercel, with Supabase handling auth and Postgres with row-level security so users can only ever read their own commitments. Stripe powers the Free and Pro tiers, and cron routes run the daily scans and digest emails for Pro users.',
       ],
       nl: [
-        'Respondly begon als een veel groter idee: een multi-agent-platform met twintig integraties, schedulers en een marketplace. De belangrijkste technische beslissing was om dat allemaal te schrappen. Wat overblijft is een tool met één doel en één kernloop — scannen, detecteren, opstellen — en elke nieuwe feature moet die loop dienen of gaat niet door.',
+        'Respondly begon als een veel groter idee: een multi-agent-platform met twintig integraties, schedulers en een marketplace. De belangrijkste technische beslissing was om dat allemaal te schrappen. Wat overblijft is een tool met één doel en één kernloop: scannen, detecteren, opstellen. Elke nieuwe feature moet die loop dienen of gaat niet door.',
         'De detectiepijplijn haalt recente verzonden mail op via de Gmail API, decodeert de berichten en stuurt ze naar Claude met een strikte extractieprompt die alleen rapporteert wat er letterlijk staat: de belofte, de exacte zin, het contact en een eventuele deadline. Een unique constraint per bericht maakt herscannen idempotent, dus niets wordt dubbel gedetecteerd.',
         'Alles draait op Next.js en Vercel, met Supabase voor auth en Postgres met row-level security zodat gebruikers alleen hun eigen commitments kunnen zien. Stripe verzorgt het Free- en Pro-abonnement, en cron-routes draaien de dagelijkse scans en digest-mails voor Pro-gebruikers.',
       ],
     },
     currentStatus: {
-      en: 'Respondly is feature-complete and deployed at respondly.io. I\'m in the launch phase now: taking Stripe live, completing Google\'s OAuth verification for restricted Gmail scopes, and preparing the public launch.',
-      nl: 'Respondly is feature-compleet en gedeployed op respondly.io. Ik zit nu in de lanceerfase: Stripe live zetten, Googles OAuth-verificatie voor Gmail-scopes afronden en de publieke lancering voorbereiden.',
+      en: 'Respondly is feature complete and running at respondly.io. I\'m in the launch phase now: taking Stripe live, completing Google\'s OAuth verification for the restricted Gmail scopes, and preparing the public launch.',
+      nl: 'Respondly is af en draait op respondly.io. Ik zit nu in de lanceerfase: Stripe live zetten, Googles OAuth-verificatie voor de Gmail-scopes afronden en de publieke lancering voorbereiden.',
     },
     skillTags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Supabase', 'PostgreSQL', 'Stripe', 'Claude API', 'Gmail API', 'OAuth', 'Prompt Engineering', 'SaaS'],
   },
