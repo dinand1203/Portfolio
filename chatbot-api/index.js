@@ -49,12 +49,6 @@ Self-hosted Django web app for tracking and analysing personal trading performan
 ### CSV Order Generator (2026, Completed)
 CLI Python tool that converts any CSV pricelist into a functional order system. Zero external dependencies, pure Python standard library.
 
-### Live Stock Screener (2025, Completed)
-Interactive Streamlit web app for real-time stock analysis and filtering based on financial metrics. Live on Streamlit Cloud.
-
-### Password Generator (2025, Completed)
-Modern, secure password generator built with Next.js and TypeScript. Live on Vercel. GitHub: https://github.com/dinand1203/Password-Generator
-
 ### Thermal AI (2025, Completed — Graduation Project)
 Graduation research project making AI's environmental impact tangible. Designed a thermal mousepad prototype that heats up as AI usage intensifies, giving users a physical sense of energy consumption. Stack: JavaScript, Node.js, React, Arduino.
 
