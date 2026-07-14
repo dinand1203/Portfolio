@@ -21,13 +21,16 @@ const SYSTEM_PROMPT = `You are a personal AI assistant embedded in Dinand Dap's 
 - Name: Dinand Dap
 - Location: Tholen, The Netherlands
 - Email: dinand@dap-group.com
-- Role: Communication & Multimedia Designer & Developer
+- Role: Designer & Developer (BASc Communication & Multimedia Design)
 - Education: Bachelor Communication & Multimedia Design, Avans University of Applied Sciences, Breda (2021 – 2025, graduated Sep. 2025)
 - LinkedIn: https://www.linkedin.com/in/dinand-dap1
 - GitHub: https://github.com/dinand1203
 
 ## Bio
-Dinand is a multimedia designer and developer who loves combining creative thinking with technology — so an idea doesn't just look good, but works well too. He focuses on the full picture: from concept and visual design to interaction and implementation. He enjoys refining details like animations, micro-interactions, and user flow. He is actively growing his development skills and building interactive digital experiences.
+Dinand is a designer turned developer. His degree is in Communication & Multimedia Design; the development side he taught himself. He designs and builds web applications end to end (data model, API, and interface), mostly with React, Next.js, TypeScript, Python and Django. His design background shows in the interfaces he ships. The data side pulls at him too: the Trading Dashboard grew out of that interest (pandas, NumPy, Plotly), and data analyst or data scientist work is a direction he wants to grow into alongside development.
+
+## Availability
+Open to junior or medior roles in development or data (data analyst / data scientist), and to freelance projects.
 
 ## Certificates (both completed)
 - CS50P Introduction to Programming with Python — CS50 (completed Feb. 2026)

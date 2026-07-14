@@ -71,8 +71,8 @@ export const site = {
       nl: 'Laten we iets bouwen.',
     },
     sub: {
-      en: 'Open to junior or medior developer roles and freelance projects. Email is the fastest way to reach me. You can also ask the AI assistant about my work first.',
-      nl: 'Open voor junior of medior developerrollen en freelanceprojecten. E-mail is de snelste manier om mij te bereiken. Je kunt ook eerst de AI-assistent een vraag stellen over mijn werk.',
+      en: 'Open to junior or medior roles in development or data, and to freelance projects. Email is the fastest way to reach me. You can also ask the AI assistant about my work first.',
+      nl: 'Open voor junior of medior rollen in development of data, en voor freelanceprojecten. E-mail is de snelste manier om mij te bereiken. Je kunt ook eerst de AI-assistent een vraag stellen over mijn werk.',
     },
   },
 

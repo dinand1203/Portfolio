@@ -429,11 +429,13 @@ export const aboutData = {
     en: [
       "I'm a designer turned developer from Tholen, the Netherlands. My degree is in Communication & Multimedia Design; the development side I taught myself. These days I design and build web applications end to end, mostly with React, Next.js, TypeScript, Python and Django.",
       "After graduating from Avans I worked through Harvard's CS50P and CS50W and kept building my own projects: a trading analytics dashboard, an AI travel planner, and this site with its self-hosted chat API. The design background never left; you can see it in the interfaces I ship.",
+      "The data side pulls at me too. The trading dashboard started as an excuse to get better with pandas and SQL, and analyst or data science work is a direction I want to grow into alongside development.",
       "I enjoy carrying a project from first idea to deployment, and I get restless when something stays a mockup. Everything on this site is live or documented, and most of it runs in production.",
     ],
     nl: [
       "Ik ben een designer die developer werd, uit Tholen. Mijn diploma is in Communication & Multimedia Design; de developer-kant heb ik mezelf aangeleerd. Tegenwoordig ontwerp en bouw ik webapplicaties van begin tot eind, voornamelijk met React, Next.js, TypeScript, Python en Django.",
       "Na mijn afstuderen aan Avans volgde ik Harvards CS50P en CS50W en bleef ik eigen projecten bouwen: een trading-dashboard, een AI-reisplanner en deze site met zijn zelfgehoste chat-API. De designachtergrond is nooit verdwenen; je ziet hem terug in de interfaces die ik oplever.",
+      "Ook de datakant trekt aan me. Het trading-dashboard begon als excuus om beter te worden met pandas en SQL, en werk als data-analist of data scientist is een richting waarin ik naast development wil doorgroeien.",
       "Ik draag een project het liefst van eerste idee tot deployment, en ik word onrustig van iets dat een mockup blijft. Alles op deze site is live of gedocumenteerd, en het meeste draait in productie.",
     ],
   },
